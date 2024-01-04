@@ -1,38 +1,57 @@
 <script setup lang="ts">
 
+const navbarLinks = [
+    {
+        name: "Hjem",
+        link: "/"
+    },
+    {
+        name: "Om",
+        link: "/"
+    },
+    {
+        name: "Projekter",
+        link: "/"
+    },
+    {
+        name: "Kontakt",
+        link: "/"
+    }
+]
+
 </script>
 
 <template>
     <div class="navbar">
-
-        <div class="navbar__logo">
-            <img class="logo" src="/img/logo.svg" onclick="" />
+        <div class="left_navbar">
+            <div class="navbar__logo">
+                <img class="logo" src="/img/logo.svg" onclick="" />
+            </div>
         </div>
-        <div class="routerlinks">
-            <RouterLink class="RouterLink" to="/">Hjem</RouterLink>
-            <RouterLink class="RouterLink" to="/">Om</RouterLink>
-            <RouterLink class="RouterLink" to="/">Projekter</RouterLink>
-            <RouterLink class="RouterLink" to="/">Kontakt</RouterLink>
-        </div>
-
-
-        <div class="search_menu">
-
-            <img class="search" src="/img/search.svg">
-
-            <Dropdown />
-
+        <div class="middle_navbar">
+            <div class="routerlinks" v-for="name in navbarLinks">
+                <RouterLink class="RouterLink" to="/">{{ name }}</RouterLink>
+            </div>
         </div>
 
+        <div class="right_navbar">
+            <div class="login_link">
+                <RouterLink class="RouterLink" to="/">Logg inn</RouterLink>
+            </div>
+
+            <Search />
+        </div>
     </div>
 </template>
 
 <style scoped lang="scss">
+
+// Navbar styling
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
     padding: 1.5rem 5rem 0rem 5rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -45,58 +64,59 @@
         color: black;
         transition: 0.3s ease-in-out;
     }
-}
 
+    // Login link styling, right navbar
+    .right_navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
 
-.routerlinks {
-    display: flex;
-    justify-content: space-between;
-    gap: 7.5rem;
+        .login_link {
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
 
-    a:hover {
-        transform: scale(1.2);
+            &:hover {
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+        }
     }
-}
 
+    // Navbar link styling, middle navbar    
+    .middle_navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
 
+        .routerlinks {
+            display: flex;
+            justify-content: space-between;
+            gap: 7.5rem;
 
+            a:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
 
-/* Search and menu icon css */
-.menu_padding {
-    padding-left: 4rem;
-}
+    // Navbar logo styling, left navbar
+    .left_navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
 
-.search_menu {
-    display: flex;
-    gap: 2rem;
-    cursor: pointer;
-}
+        .logo {
+            height: 125px;
+            width: 125px;
 
-.menu {
-    height: 50px;
-    width: 50px;
-}
-
-.search {
-    height: 50px;
-    width: 50px;
-    transition: 0.3s ease-in-out;
-}
-
-.menu,
-.search:hover {
-    transform: scale(1.3);
-}
-
-
-/* logo image css */
-.logo {
-    height: 125px;
-    width: 125px;
-}
-
-.logo:hover {
-    pointer-events: none;
+            &:hover {
+                pointer-events: none;
+            }
+        }
+    }
 }
 </style>
 

@@ -1,5 +1,26 @@
 <script setup lang="ts">
-
+const socialImages = [
+    {
+        name: "Github",
+        url: "/img/github-142-svgrepo-com.svg",
+        link: "https://github.com/ErikOkau"
+    },
+    {
+        name: "Gmail",
+        url: "/img/gmail-svgrepo-com (1).svg",
+        link: "mailto: ersor29@gmail.com"
+    },
+    {
+        name: "Facebook",
+        url: "/img/facebook-svgrepo-com.svg",
+        link: "https://facebook.com"
+    },
+    {
+        name: "Instagram",
+        url: "/img/instagram-svgrepo-com.svg",
+        link: "https://instagram.com"
+    }
+]
 </script>
 
 <template>
@@ -11,7 +32,6 @@
         <div class="footer_social">
             <img href="https://github.com/ErikOkau" target="_blank" src="/img/github-142-svgrepo-com.svg" alt="Github">
             <img href = "mailto: ersor29@gmail.com" target="_blank" src="/img/gmail-svgrepo-com (1).svg" alt="Gmail">
-            <img href="sms://+14035550185?body=I%27m%20interested%20in%20your%20product.%20Please%20contact%20me." target="_blank" src="/img/messages-svgrepo-com (1).svg" alt="Messages">
             <img href="https://facebook.com" target="_blank" src="/img/facebook-svgrepo-com.svg" alt="Facebook">
             <img href="https://instagram.com" target="_blank" src="/img/instagram-svgrepo-com.svg" alt="Instagram">
         </div>
