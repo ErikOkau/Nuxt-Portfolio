@@ -26,8 +26,6 @@ function toggleMenu() {
 </template>
 
 <style scoped lang="scss">
-
-// zesty
 .container {
     .dropdown {
         display: flex;
