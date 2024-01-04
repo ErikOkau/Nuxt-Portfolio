@@ -3,6 +3,8 @@
 </script>
 
 <template>
+
+    <!-- zesty -->
     <div class="footer">
 
         <div class="line"></div>
