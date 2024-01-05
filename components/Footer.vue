@@ -21,25 +21,42 @@ const socialImages = [
         link: "https://instagram.com"
     }
 ]
+
+const footerLinks = [
+    {
+        name: "Hjem",
+        link: "/"
+    },
+    {
+        name: "Om",
+        link: "/"
+    },
+    {
+        name: "Projekter",
+        link: "/"
+    },
+    {
+        name: "Kontakt",
+        link: "/"
+    }
+]
+
 </script>
 
 <template>
-    
     <div class="footer">
+        <div class="line">
 
-        <div class="line"></div>
-
-        <div class="footer_social">
-            <img href="https://github.com/ErikOkau" target="_blank" src="/img/github-142-svgrepo-com.svg" alt="Github">
-            <img href = "mailto: ersor29@gmail.com" target="_blank" src="/img/gmail-svgrepo-com (1).svg" alt="Gmail">
-            <img href="https://facebook.com" target="_blank" src="/img/facebook-svgrepo-com.svg" alt="Facebook">
-            <img href="https://instagram.com" target="_blank" src="/img/instagram-svgrepo-com.svg" alt="Instagram">
         </div>
-        <div class="footer_links">
-            <NuxtLink to="" class="link">Hjem</NuxtLink>
-            <NuxtLink to="" class="link">Om</NuxtLink>
-            <NuxtLink to="" class="link">Projekter</NuxtLink>
-            <NuxtLink to="" class="link">Kontakt</NuxtLink>
+        <div class="social_icons">
+            <div class="icons" v-for="social in socialImages">
+                <NuxtLink :to="social.link" target="_blank"><img :src="social.url"></NuxtLink>
+            </div>
+        </div>
+        <div class="social_links">
+            <div class="footer_links" v-for="footer in footerLinks">
+                <NuxtLink class="link" :to="footer.link">{{ footer.name }}</NuxtLink>
+            </div>
         </div>
         <div class="copyright">
             <p>© 2024 Erik Sørheim. Ingen rettigheter forbeholdes</p>
@@ -52,7 +69,6 @@ const socialImages = [
 .footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 5rem;
     gap: 1rem;
@@ -63,29 +79,32 @@ const socialImages = [
         background-color: #000000;
     }
 
-    .footer_social {
+    .social_icons {
         display: flex;
-        justify-content: center;
-        align-items: center;
         gap: 1rem;
-        margin-top: 1rem;
 
-        img {
-            transition: all 0.3s ease-in-out;
-            width: 2rem;
-            height: 2rem;
+        .icons {
+            margin-top: 1rem;
 
-            &:hover {
-                transform: scale(1.2);
-                cursor: pointer;
+            img {
+                transition: all 0.3s ease-in-out;
+                width: 2rem;
+                height: 2rem;
+
+                &:hover {
+                    transform: scale(1.2);
+                    cursor: pointer;
+                }
             }
         }
     }
 
-    .footer_links {
+    .social_links {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .footer_links {
         gap: 1rem;
 
         .link {
@@ -102,6 +121,7 @@ const socialImages = [
 
     .copyright {
         margin-top: 1rem;
+        margin-bottom: 1rem;
         font-size: 0.75rem;
     }
 }

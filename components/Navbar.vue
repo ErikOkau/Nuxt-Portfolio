@@ -29,8 +29,8 @@ const navbarLinks = [
             </div>
         </div>
         <div class="middle_navbar">
-            <div class="routerlinks" v-for="name in navbarLinks">
-                <RouterLink class="RouterLink" to="/">{{ name }}</RouterLink>
+            <div class="routerlinks" v-for="navbar in navbarLinks">
+                <RouterLink class="RouterLink" :to="{path: '/'}">{{ navbar.name }}</RouterLink>
             </div>
         </div>
 
