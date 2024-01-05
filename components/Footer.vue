@@ -1,5 +1,6 @@
 <script setup lang="ts">
-const socialImages = [
+// Array of social image icons and links
+const socialImages = ref([
     {
         name: "Github",
         url: "/img/github-142-svgrepo-com.svg",
@@ -20,9 +21,10 @@ const socialImages = [
         url: "/img/instagram-svgrepo-com.svg",
         link: "https://instagram.com"
     }
-]
+])
 
-const footerLinks = [
+// Array of footer links
+const footerLinks = ref([
     {
         name: "Hjem",
         link: "/"
@@ -39,7 +41,7 @@ const footerLinks = [
         name: "Kontakt",
         link: "/"
     }
-]
+])
 
 </script>
 
