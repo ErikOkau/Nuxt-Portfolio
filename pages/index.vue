@@ -4,20 +4,19 @@
 </script>
 
 <template>
-
    <div class="header">
       <h1>Erik Sørheim</h1>
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil nisi dignissimos dolore consequatur recusandae vero incidunt pariatur, accusamus placeat fugit ipsum alias necessitatibus soluta totam. Aut sed unde quia?</h2>
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil nisi dignissimos dolore consequatur
+         recusandae vero incidunt pariatur, accusamus placeat fugit ipsum alias necessitatibus soluta totam. Aut sed unde
+         quia?</h2>
    </div>
 
    <div class="threeJS">
       <threeJS />
    </div>
-   
 </template>
 
 <style scoped lang="scss">
-
 .header {
    margin-left: 6.4rem;
    margin-top: 5rem;

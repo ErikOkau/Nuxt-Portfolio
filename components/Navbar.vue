@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+// Array of navbar links
 const navbarLinks = [
     {
         name: "Hjem",
@@ -7,18 +7,17 @@ const navbarLinks = [
     },
     {
         name: "Om",
-        link: "/"
+        link: "/about"
     },
     {
         name: "Projekter",
-        link: "/"
+        link: "/projects"
     },
     {
         name: "Kontakt",
-        link: "/"
+        link: "/contact"
     }
 ]
-
 </script>
 
 <template>
@@ -30,10 +29,9 @@ const navbarLinks = [
         </div>
         <div class="middle_navbar">
             <div class="routerlinks" v-for="navbar in navbarLinks">
-                <RouterLink class="RouterLink" :to="{path: '/'}">{{ navbar.name }}</RouterLink>
+                <RouterLink class="RouterLink" :to="{ path: navbar.link }">{{ navbar.name }}</RouterLink>
             </div>
         </div>
-
         <div class="right_navbar">
             <div class="login_link">
                 <RouterLink class="RouterLink" to="/">Logg inn</RouterLink>
@@ -45,7 +43,6 @@ const navbarLinks = [
 </template>
 
 <style scoped lang="scss">
-
 // Navbar styling
 .navbar {
     display: flex;
@@ -88,7 +85,7 @@ const navbarLinks = [
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 2rem;
+        gap: 4rem;
 
         .routerlinks {
             display: flex;
