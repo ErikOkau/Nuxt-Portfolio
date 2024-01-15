@@ -1,0 +1,222 @@
+{
+  "resolvedId": "C:/Github/nuxt-portfolio/app.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport '../assets/scss/animations.scss'\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'app',\n  setup(__props) {\n\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_Navbar = _resolveComponent(\"Navbar\")!\n  const _component_NuxtPage = _resolveComponent(\"NuxtPage\")!\n  const _component_Footer = _resolveComponent(\"Footer\")!\n  const _component_NuxtLayout = _resolveComponent(\"NuxtLayout\")!\n\n  return (_openBlock(), _createBlock(_component_NuxtLayout, null, {\n    default: _withCtx(() => [\n      _createVNode(_component_Navbar),\n      _createVNode(_component_NuxtPage),\n      _createVNode(_component_Footer)\n    ]),\n    _: 1\n  }))\n}\n}\n\n})",
+      "start": 1705327007572,
+      "end": 1705327007572
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327007572,
+      "end": 1705327007572,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327007572,
+      "end": 1705327007572,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1705327007572,
+      "end": 1705327007572,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1705327007572,
+      "end": 1705327007572,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport \"../assets/scss/animations.scss\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"app\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      const _component_Navbar = _resolveComponent(\"Navbar\");\n      const _component_NuxtPage = _resolveComponent(\"NuxtPage\");\n      const _component_Footer = _resolveComponent(\"Footer\");\n      const _component_NuxtLayout = _resolveComponent(\"NuxtLayout\");\n      return _openBlock(), _createBlock(_component_NuxtLayout, null, {\n        default: _withCtx(() => [\n          _createVNode(_component_Navbar),\n          _createVNode(_component_NuxtPage),\n          _createVNode(_component_Footer)\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n",
+      "start": 1705327007577,
+      "end": 1705327007583,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Github/nuxt-portfolio/app.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\"\n\nimport '../assets/scss/animations.scss'\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'app',\n  setup(__props) {\n\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_Navbar = _resolveComponent(\"Navbar\")!\n  const _component_NuxtPage = _resolveComponent(\"NuxtPage\")!\n  const _component_Footer = _resolveComponent(\"Footer\")!\n  const _component_NuxtLayout = _resolveComponent(\"NuxtLayout\")!\n\n  return (_openBlock(), _createBlock(_component_NuxtLayout, null, {\n    default: _withCtx(() => [\n      _createVNode(_component_Navbar),\n      _createVNode(_component_NuxtPage),\n      _createVNode(_component_Footer)\n    ]),\n    _: 1\n  }))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,oBAAoB,mBAAmB,eAAe,cAAc,WAAW,UAAU,aAAa,YAAY,eAAe,oBAAoB;AAE9J,OAAO;AAEP,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAGjB,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,oBAAoB,kBAAkB,QAAQ;AACpD,YAAM,sBAAsB,kBAAkB,UAAU;AACxD,YAAM,oBAAoB,kBAAkB,QAAQ;AACpD,YAAM,wBAAwB,kBAAkB,YAAY;AAE5D,aAAQ,WAAW,GAAG,aAAa,uBAAuB,MAAM;AAAA,QAC9D,SAAS,SAAS,MAAM;AAAA,UACtB,aAAa,iBAAiB;AAAA,UAC9B,aAAa,mBAAmB;AAAA,UAChC,aAAa,iBAAiB;AAAA,QAChC,CAAC;AAAA,QACD,GAAG;AAAA,MACL,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327007583,
+      "end": 1705327007583,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327007583,
+      "end": 1705327007584,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327007584,
+      "end": 1705327007584,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327007584,
+      "end": 1705327007584,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1705327007584,
+      "end": 1705327007584,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1705327007584,
+      "end": 1705327007584,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Github/nuxt-portfolio/components/Navbar.vue\";\nimport { default as __nuxt_component_1 } from \"C:/Github/nuxt-portfolio/node_modules/nuxt/dist/pages/runtime/page\";\nimport { default as __nuxt_component_2 } from \"C:/Github/nuxt-portfolio/components/Footer.vue\";\nimport { default as __nuxt_component_3 } from \"C:/Github/nuxt-portfolio/node_modules/nuxt/dist/app/components/nuxt-layout\";\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nimport \"../assets/scss/animations.scss\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"app\",\n  setup(__props) {\n    return (_ctx, _cache) => {\n      const _component_Navbar = __nuxt_component_0;\n      const _component_NuxtPage = __nuxt_component_1;\n      const _component_Footer = __nuxt_component_2;\n      const _component_NuxtLayout = __nuxt_component_3;\n      return _openBlock(), _createBlock(_component_NuxtLayout, null, {\n        default: _withCtx(() => [\n          _createVNode(_component_Navbar),\n          _createVNode(_component_NuxtPage),\n          _createVNode(_component_Footer)\n        ]),\n        _: 1\n      });\n    };\n  }\n});\n",
+      "start": 1705327007584,
+      "end": 1705327007584,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1705327007584,
+      "end": 1705327007584,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1705327007584,
+      "end": 1705327007584,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1705327007584,
+      "end": 1705327007584,
+      "order": "normal"
+    }
+  ]
+}

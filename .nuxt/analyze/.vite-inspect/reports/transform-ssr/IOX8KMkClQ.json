@@ -1,0 +1,294 @@
+{
+  "resolvedId": "C:/Github/nuxt-portfolio/components/Footer.vue?vue&type=style&index=0&scoped=5e46f2f2&lang.scss",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n/* Footer styling */\r\n.footer {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    margin-top: 5rem;\r\n    gap: 1rem;\r\n\r\n    .line {\r\n        width: 75%;\r\n        height: 0.1rem;\r\n        background-color: #000000;\r\n    }\r\n\r\n    .social_icons {\r\n        display: flex;\r\n        gap: 1rem;\r\n\r\n        .icons {\r\n            margin-top: 1rem;\r\n\r\n            img {\r\n                transition: all 0.3s ease-in-out;\r\n                width: 2rem;\r\n                height: 2rem;\r\n\r\n                &:hover {\r\n                    transform: scale(1.2);\r\n                    cursor: pointer;\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .social_links {\r\n        display: flex;\r\n        gap: 1.5rem;\r\n    }\r\n\r\n    .footer_links {\r\n        gap: 1rem;\r\n\r\n        .link {\r\n            text-decoration: none;\r\n            color: black;\r\n            transition: 0.3s ease-in-out;\r\n\r\n            &:hover {\r\n                transform: scale(1.2);\r\n                cursor: pointer;\r\n            }\r\n        }\r\n    }\r\n\r\n    .copyright {\r\n        margin-top: 1rem;\r\n        margin-bottom: 1rem;\r\n        font-size: 0.75rem;\r\n    }\r\n}\r\n",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Footer.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Github/nuxt-portfolio/components/Footer.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\r\n// Array of social image icons and links\r\nconst socialImages = ref([\r\n    {\r\n        name: \"Github\",\r\n        url: \"/img/github.svg\",\r\n        link: \"https://github.com/ErikOkau\"\r\n    },\r\n    {\r\n        name: \"Gmail\",\r\n        url: \"/img/gmail.svg\",\r\n        link: \"mailto: ersor29@gmail.com\"\r\n    },\r\n    {\r\n        name: \"Facebook\",\r\n        url: \"/img/facebook.svg\",\r\n        link: \"https://facebook.com\"\r\n    },\r\n    {\r\n        name: \"Instagram\",\r\n        url: \"/img/instagram.svg\",\r\n        link: \"https://instagram.com\"\r\n    }\r\n])\r\n\r\n\r\n// Array of footer links\r\nconst footerLinks = ref([\r\n    {\r\n        name: \"Hjem\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Om\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Projekter\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Kontakt\",\r\n        link: \"/\"\r\n    }\r\n])\r\n\r\n</script>\r\n\r\n<template>\r\n    <div class=\"footer\">\r\n        <div class=\"line\">\r\n\r\n        </div>\r\n        <div class=\"social_icons\">\r\n            <div class=\"icons\" v-for=\"social in socialImages\">\r\n                <NuxtLink :to=\"social.link\" target=\"_blank\"><img :src=\"social.url\"></NuxtLink>\r\n            </div>\r\n        </div>\r\n        <div class=\"social_links\">\r\n            <div class=\"footer_links\" v-for=\"footer in footerLinks\">\r\n                <NuxtLink class=\"link\" :to=\"footer.link\">{{ footer.name }}</NuxtLink>\r\n            </div>\r\n        </div>\r\n        <div class=\"copyright\">\r\n            <p>© 2024 Erik Sørheim. Ingen rettigheter forbeholdes</p>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<style scoped lang=\"scss\">\r\n/* Footer styling */\r\n.footer {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    margin-top: 5rem;\r\n    gap: 1rem;\r\n\r\n    .line {\r\n        width: 75%;\r\n        height: 0.1rem;\r\n        background-color: #000000;\r\n    }\r\n\r\n    .social_icons {\r\n        display: flex;\r\n        gap: 1rem;\r\n\r\n        .icons {\r\n            margin-top: 1rem;\r\n\r\n            img {\r\n                transition: all 0.3s ease-in-out;\r\n                width: 2rem;\r\n                height: 2rem;\r\n\r\n                &:hover {\r\n                    transform: scale(1.2);\r\n                    cursor: pointer;\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .social_links {\r\n        display: flex;\r\n        gap: 1.5rem;\r\n    }\r\n\r\n    .footer_links {\r\n        gap: 1rem;\r\n\r\n        .link {\r\n            text-decoration: none;\r\n            color: black;\r\n            transition: 0.3s ease-in-out;\r\n\r\n            &:hover {\r\n                transform: scale(1.2);\r\n                cursor: pointer;\r\n            }\r\n        }\r\n    }\r\n\r\n    .copyright {\r\n        margin-top: 1rem;\r\n        margin-bottom: 1rem;\r\n        font-size: 0.75rem;\r\n    }\r\n}\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".footer{align-items:center;display:flex;flex-direction:column;gap:1rem;margin-top:5rem}.footer .line{background-color:#000;height:.1rem;width:75%}.footer .social_icons{display:flex;gap:1rem}.footer .social_icons .icons{margin-top:1rem}.footer .social_icons .icons img{height:2rem;transition:all .3s ease-in-out;width:2rem}.footer .social_icons .icons img:hover{cursor:pointer;transform:scale(1.2)}.footer .social_links{display:flex;gap:1.5rem}.footer .footer_links{gap:1rem}.footer .footer_links .link{color:#000;text-decoration:none;transition:.3s ease-in-out}.footer .footer_links .link:hover{cursor:pointer;transform:scale(1.2)}.footer .copyright{font-size:.75rem;margin-bottom:1rem;margin-top:1rem}",
+      "start": 1705327013090,
+      "end": 1705327013140,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "C:/Github/nuxt-portfolio/components/Footer.vue",
+        "mappings": "AAEA,QAGI,mBAFA,aACA,sBAGA,SADA,gBAGA,cAGI,sBADA,aADA,UAKJ,sBACI,aACA,SAEA,6BACI,gBAEA,iCAGI,YAFA,+BACA,WAGA,uCAEI,eADA,qBAOhB,sBACI,aACA,WAGJ,sBACI,SAEA,4BAEI,WADA,qBAEA,2BAEA,kCAEI,eADA,qBAMZ,mBAGI,iBADA,mBADA",
+        "names": [],
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Footer.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1705327013140,
+      "end": 1705327013141,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1705327013141,
+      "end": 1705327013141,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1705327013141,
+      "end": 1705327013141,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".footer[data-v-5e46f2f2]{align-items:center;display:flex;flex-direction:column;gap:1rem;margin-top:5rem}.footer .line[data-v-5e46f2f2]{background-color:#000;height:.1rem;width:75%}.footer .social_icons[data-v-5e46f2f2]{display:flex;gap:1rem}.footer .social_icons .icons[data-v-5e46f2f2]{margin-top:1rem}.footer .social_icons .icons img[data-v-5e46f2f2]{height:2rem;transition:all .3s ease-in-out;width:2rem}.footer .social_icons .icons img[data-v-5e46f2f2]:hover{cursor:pointer;transform:scale(1.2)}.footer .social_links[data-v-5e46f2f2]{display:flex;gap:1.5rem}.footer .footer_links[data-v-5e46f2f2]{gap:1rem}.footer .footer_links .link[data-v-5e46f2f2]{color:#000;text-decoration:none;transition:.3s ease-in-out}.footer .footer_links .link[data-v-5e46f2f2]:hover{cursor:pointer;transform:scale(1.2)}.footer .copyright[data-v-5e46f2f2]{font-size:.75rem;margin-bottom:1rem;margin-top:1rem}",
+      "start": 1705327013141,
+      "end": 1705327013148,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Github/nuxt-portfolio/components/Footer.vue",
+        "mappings": "AAAA,yBAAQ,kBAAkB,CAAC,YAAY,CAAC,qBAAqB,CAAC,QAAQ,CAAC,eAAe,CAAC,+BAAc,qBAAqB,CAAC,YAAY,CAAC,SAAS,CAAC,uCAAsB,YAAY,CAAC,QAAQ,CAAC,8CAA6B,eAAe,CAAC,kDAAiC,WAAW,CAAC,8BAA8B,CAAC,UAAU,CAAC,wDAAuC,cAAc,CAAC,oBAAoB,CAAC,uCAAsB,YAAY,CAAC,UAAU,CAAC,uCAAsB,QAAQ,CAAC,6CAA4B,UAAU,CAAC,oBAAoB,CAAC,0BAA0B,CAAC,mDAAkC,cAAc,CAAC,oBAAoB,CAAC,oCAAmB,gBAAgB,CAAC,kBAAkB,CAAC,eAAe",
+        "names": [],
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Footer.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327013149,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327013149,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "normal"
+    }
+  ]
+}

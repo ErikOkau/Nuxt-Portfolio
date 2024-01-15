@@ -1,0 +1,212 @@
+{
+  "resolvedId": "virtual:nuxt:C:/Github/nuxt-portfolio/.nuxt/routes.mjs",
+  "transforms": [
+    {
+      "name": "virtual",
+      "result": "import { default as about7v3INEZrdSMeta } from \"C:/Github/nuxt-portfolio/pages/about.vue?macro=true\";\nimport { default as contactBMNu5L8XHjMeta } from \"C:/Github/nuxt-portfolio/pages/contact.vue?macro=true\";\nimport { default as indexIKPESBaxrFMeta } from \"C:/Github/nuxt-portfolio/pages/index.vue?macro=true\";\nimport { default as projectsyzuqNPChVYMeta } from \"C:/Github/nuxt-portfolio/pages/projects.vue?macro=true\";\nexport default [\n  {\n    name: about7v3INEZrdSMeta?.name ?? \"about\",\n    path: about7v3INEZrdSMeta?.path ?? \"/about\",\n    meta: about7v3INEZrdSMeta || {},\n    alias: about7v3INEZrdSMeta?.alias || [],\n    redirect: about7v3INEZrdSMeta?.redirect || undefined,\n    component: () => import(\"C:/Github/nuxt-portfolio/pages/about.vue\").then(m => m.default || m)\n  },\n  {\n    name: contactBMNu5L8XHjMeta?.name ?? \"contact\",\n    path: contactBMNu5L8XHjMeta?.path ?? \"/contact\",\n    meta: contactBMNu5L8XHjMeta || {},\n    alias: contactBMNu5L8XHjMeta?.alias || [],\n    redirect: contactBMNu5L8XHjMeta?.redirect || undefined,\n    component: () => import(\"C:/Github/nuxt-portfolio/pages/contact.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexIKPESBaxrFMeta?.name ?? \"index\",\n    path: indexIKPESBaxrFMeta?.path ?? \"/\",\n    meta: indexIKPESBaxrFMeta || {},\n    alias: indexIKPESBaxrFMeta?.alias || [],\n    redirect: indexIKPESBaxrFMeta?.redirect || undefined,\n    component: () => import(\"C:/Github/nuxt-portfolio/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: projectsyzuqNPChVYMeta?.name ?? \"projects\",\n    path: projectsyzuqNPChVYMeta?.path ?? \"/projects\",\n    meta: projectsyzuqNPChVYMeta || {},\n    alias: projectsyzuqNPChVYMeta?.alias || [],\n    redirect: projectsyzuqNPChVYMeta?.redirect || undefined,\n    component: () => import(\"C:/Github/nuxt-portfolio/pages/projects.vue\").then(m => m.default || m)\n  }\n]",
+      "start": 1705327005494,
+      "end": 1705327005495,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327005495,
+      "end": 1705327005495,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327005495,
+      "end": 1705327005495,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1705327005495,
+      "end": 1705327005495,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1705327005495,
+      "end": 1705327005495,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1705327005495,
+      "end": 1705327005495,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1705327005495,
+      "end": 1705327005495,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1705327005496,
+      "end": 1705327005496,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1705327005496,
+      "end": 1705327005496,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1705327005496,
+      "end": 1705327005496,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327005496,
+      "end": 1705327005496,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327005496,
+      "end": 1705327005496,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1705327005497,
+      "end": 1705327005497,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1705327005497,
+      "end": 1705327005497,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327005497,
+      "end": 1705327005497,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1705327005497,
+      "end": 1705327005497,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1705327005498,
+      "end": 1705327005498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1705327005498,
+      "end": 1705327005498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1705327005498,
+      "end": 1705327005498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1705327005498,
+      "end": 1705327005498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1705327005498,
+      "end": 1705327005498,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1705327005498,
+      "end": 1705327005498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1705327005499,
+      "end": 1705327005499,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1705327005499,
+      "end": 1705327005499,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327005499,
+      "end": 1705327005499,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327005499,
+      "end": 1705327005501,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327005501,
+      "end": 1705327005501,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327005501,
+      "end": 1705327005501,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1705327005502,
+      "end": 1705327005502,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1705327005502,
+      "end": 1705327005502,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1705327005502,
+      "end": 1705327005502,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1705327005502,
+      "end": 1705327005502,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper\";import { default as about7v3INEZrdSMeta } from \"C:/Github/nuxt-portfolio/pages/about.vue?macro=true\";\nimport { default as contactBMNu5L8XHjMeta } from \"C:/Github/nuxt-portfolio/pages/contact.vue?macro=true\";\nimport { default as indexIKPESBaxrFMeta } from \"C:/Github/nuxt-portfolio/pages/index.vue?macro=true\";\nimport { default as projectsyzuqNPChVYMeta } from \"C:/Github/nuxt-portfolio/pages/projects.vue?macro=true\";\nexport default [\n  {\n    name: about7v3INEZrdSMeta?.name ?? \"about\",\n    path: about7v3INEZrdSMeta?.path ?? \"/about\",\n    meta: about7v3INEZrdSMeta || {},\n    alias: about7v3INEZrdSMeta?.alias || [],\n    redirect: about7v3INEZrdSMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Github/nuxt-portfolio/pages/about.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: contactBMNu5L8XHjMeta?.name ?? \"contact\",\n    path: contactBMNu5L8XHjMeta?.path ?? \"/contact\",\n    meta: contactBMNu5L8XHjMeta || {},\n    alias: contactBMNu5L8XHjMeta?.alias || [],\n    redirect: contactBMNu5L8XHjMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Github/nuxt-portfolio/pages/contact.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexIKPESBaxrFMeta?.name ?? \"index\",\n    path: indexIKPESBaxrFMeta?.path ?? \"/\",\n    meta: indexIKPESBaxrFMeta || {},\n    alias: indexIKPESBaxrFMeta?.alias || [],\n    redirect: indexIKPESBaxrFMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Github/nuxt-portfolio/pages/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: projectsyzuqNPChVYMeta?.name ?? \"projects\",\n    path: projectsyzuqNPChVYMeta?.path ?? \"/projects\",\n    meta: projectsyzuqNPChVYMeta || {},\n    alias: projectsyzuqNPChVYMeta?.alias || [],\n    redirect: projectsyzuqNPChVYMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Github/nuxt-portfolio/pages/projects.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  }\n]",
+      "start": 1705327005503,
+      "end": 1705327005504,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1705327005504,
+      "end": 1705327005504,
+      "order": "normal"
+    }
+  ]
+}

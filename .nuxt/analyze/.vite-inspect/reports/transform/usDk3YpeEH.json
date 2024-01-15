@@ -1,0 +1,231 @@
+{
+  "resolvedId": "C:/Github/nuxt-portfolio/components/Footer.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-5e46f2f2\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"footer\" }\nconst _hoisted_2 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"line\" }, null, -1))\nconst _hoisted_3 = { class: \"social_icons\" }\nconst _hoisted_4 = { class: \"icons\" }\nconst _hoisted_5 = [\"src\"]\nconst _hoisted_6 = { class: \"social_links\" }\nconst _hoisted_7 = { class: \"footer_links\" }\nconst _hoisted_8 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"copyright\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"© 2024 Erik Sørheim. Ingen rettigheter forbeholdes\")\n], -1))\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Footer',\n  setup(__props) {\n\r\n// Array of social image icons and links\r\nconst socialImages = ref([\r\n    {\r\n        name: \"Github\",\r\n        url: \"/img/github.svg\",\r\n        link: \"https://github.com/ErikOkau\"\r\n    },\r\n    {\r\n        name: \"Gmail\",\r\n        url: \"/img/gmail.svg\",\r\n        link: \"mailto: ersor29@gmail.com\"\r\n    },\r\n    {\r\n        name: \"Facebook\",\r\n        url: \"/img/facebook.svg\",\r\n        link: \"https://facebook.com\"\r\n    },\r\n    {\r\n        name: \"Instagram\",\r\n        url: \"/img/instagram.svg\",\r\n        link: \"https://instagram.com\"\r\n    }\r\n])\r\n\r\n\r\n// Array of footer links\r\nconst footerLinks = ref([\r\n    {\r\n        name: \"Hjem\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Om\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Projekter\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Kontakt\",\r\n        link: \"/\"\r\n    }\r\n])\r\n\r\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(socialImages), (social) => {\n        return (_openBlock(), _createElementBlock(\"div\", _hoisted_4, [\n          _createVNode(_component_NuxtLink, {\n            to: social.link,\n            target: \"_blank\"\n          }, {\n            default: _withCtx(() => [\n              _createElementVNode(\"img\", {\n                src: social.url\n              }, null, 8, _hoisted_5)\n            ]),\n            _: 2\n          }, 1032, [\"to\"])\n        ]))\n      }), 256))\n    ]),\n    _createElementVNode(\"div\", _hoisted_6, [\n      (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(footerLinks), (footer) => {\n        return (_openBlock(), _createElementBlock(\"div\", _hoisted_7, [\n          _createVNode(_component_NuxtLink, {\n            class: \"link\",\n            to: footer.link\n          }, {\n            default: _withCtx(() => [\n              _createTextVNode(_toDisplayString(footer.name), 1)\n            ]),\n            _: 2\n          }, 1032, [\"to\"])\n        ]))\n      }), 256))\n    ]),\n    _hoisted_8\n  ]))\n}\n}\n\n})",
+      "start": 1705327007703,
+      "end": 1705327007703
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327007703,
+      "end": 1705327007703,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327007703,
+      "end": 1705327007703,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1705327007703,
+      "end": 1705327007703,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1705327007703,
+      "end": 1705327007703,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-5e46f2f2\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"footer\" };\nconst _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"line\" }, null, -1));\nconst _hoisted_3 = { class: \"social_icons\" };\nconst _hoisted_4 = { class: \"icons\" };\nconst _hoisted_5 = [\"src\"];\nconst _hoisted_6 = { class: \"social_links\" };\nconst _hoisted_7 = { class: \"footer_links\" };\nconst _hoisted_8 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"copyright\" }, [\n  /* @__PURE__ */ _createElementVNode(\"p\", null, \"© 2024 Erik Sørheim. Ingen rettigheter forbeholdes\")\n], -1));\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Footer\",\n  setup(__props) {\n    const socialImages = ref([\n      {\n        name: \"Github\",\n        url: \"/img/github.svg\",\n        link: \"https://github.com/ErikOkau\"\n      },\n      {\n        name: \"Gmail\",\n        url: \"/img/gmail.svg\",\n        link: \"mailto: ersor29@gmail.com\"\n      },\n      {\n        name: \"Facebook\",\n        url: \"/img/facebook.svg\",\n        link: \"https://facebook.com\"\n      },\n      {\n        name: \"Instagram\",\n        url: \"/img/instagram.svg\",\n        link: \"https://instagram.com\"\n      }\n    ]);\n    const footerLinks = ref([\n      {\n        name: \"Hjem\",\n        link: \"/\"\n      },\n      {\n        name: \"Om\",\n        link: \"/\"\n      },\n      {\n        name: \"Projekter\",\n        link: \"/\"\n      },\n      {\n        name: \"Kontakt\",\n        link: \"/\"\n      }\n    ]);\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _hoisted_2,\n        _createElementVNode(\"div\", _hoisted_3, [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(socialImages), (social) => {\n            return _openBlock(), _createElementBlock(\"div\", _hoisted_4, [\n              _createVNode(_component_NuxtLink, {\n                to: social.link,\n                target: \"_blank\"\n              }, {\n                default: _withCtx(() => [\n                  _createElementVNode(\"img\", {\n                    src: social.url\n                  }, null, 8, _hoisted_5)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]);\n          }), 256))\n        ]),\n        _createElementVNode(\"div\", _hoisted_6, [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(footerLinks), (footer) => {\n            return _openBlock(), _createElementBlock(\"div\", _hoisted_7, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: footer.link\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(footer.name), 1)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]);\n          }), 256))\n        ]),\n        _hoisted_8\n      ]);\n    };\n  }\n});\n",
+      "start": 1705327007706,
+      "end": 1705327008547,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Footer.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-5e46f2f2\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"footer\" }\nconst _hoisted_2 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"line\" }, null, -1))\nconst _hoisted_3 = { class: \"social_icons\" }\nconst _hoisted_4 = { class: \"icons\" }\nconst _hoisted_5 = [\"src\"]\nconst _hoisted_6 = { class: \"social_links\" }\nconst _hoisted_7 = { class: \"footer_links\" }\nconst _hoisted_8 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"copyright\" }, [\n  /*#__PURE__*/_createElementVNode(\"p\", null, \"© 2024 Erik Sørheim. Ingen rettigheter forbeholdes\")\n], -1))\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Footer',\n  setup(__props) {\n\r\n// Array of social image icons and links\r\nconst socialImages = ref([\r\n    {\r\n        name: \"Github\",\r\n        url: \"/img/github.svg\",\r\n        link: \"https://github.com/ErikOkau\"\r\n    },\r\n    {\r\n        name: \"Gmail\",\r\n        url: \"/img/gmail.svg\",\r\n        link: \"mailto: ersor29@gmail.com\"\r\n    },\r\n    {\r\n        name: \"Facebook\",\r\n        url: \"/img/facebook.svg\",\r\n        link: \"https://facebook.com\"\r\n    },\r\n    {\r\n        name: \"Instagram\",\r\n        url: \"/img/instagram.svg\",\r\n        link: \"https://instagram.com\"\r\n    }\r\n])\r\n\r\n\r\n// Array of footer links\r\nconst footerLinks = ref([\r\n    {\r\n        name: \"Hjem\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Om\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Projekter\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Kontakt\",\r\n        link: \"/\"\r\n    }\r\n])\r\n\r\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(socialImages), (social) => {\n        return (_openBlock(), _createElementBlock(\"div\", _hoisted_4, [\n          _createVNode(_component_NuxtLink, {\n            to: social.link,\n            target: \"_blank\"\n          }, {\n            default: _withCtx(() => [\n              _createElementVNode(\"img\", {\n                src: social.url\n              }, null, 8, _hoisted_5)\n            ]),\n            _: 2\n          }, 1032, [\"to\"])\n        ]))\n      }), 256))\n    ]),\n    _createElementVNode(\"div\", _hoisted_6, [\n      (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(footerLinks), (footer) => {\n        return (_openBlock(), _createElementBlock(\"div\", _hoisted_7, [\n          _createVNode(_component_NuxtLink, {\n            class: \"link\",\n            to: footer.link\n          }, {\n            default: _withCtx(() => [\n              _createTextVNode(_toDisplayString(footer.name), 1)\n            ]),\n            _: 2\n          }, 1032, [\"to\"])\n        ]))\n      }), 256))\n    ]),\n    _hoisted_8\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "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",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327008547,
+      "end": 1705327008547,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "result": "import { ref } from 'vue';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-5e46f2f2\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"footer\" };\nconst _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"line\" }, null, -1));\nconst _hoisted_3 = { class: \"social_icons\" };\nconst _hoisted_4 = { class: \"icons\" };\nconst _hoisted_5 = [\"src\"];\nconst _hoisted_6 = { class: \"social_links\" };\nconst _hoisted_7 = { class: \"footer_links\" };\nconst _hoisted_8 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"copyright\" }, [\n  /* @__PURE__ */ _createElementVNode(\"p\", null, \"© 2024 Erik Sørheim. Ingen rettigheter forbeholdes\")\n], -1));\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Footer\",\n  setup(__props) {\n    const socialImages = ref([\n      {\n        name: \"Github\",\n        url: \"/img/github.svg\",\n        link: \"https://github.com/ErikOkau\"\n      },\n      {\n        name: \"Gmail\",\n        url: \"/img/gmail.svg\",\n        link: \"mailto: ersor29@gmail.com\"\n      },\n      {\n        name: \"Facebook\",\n        url: \"/img/facebook.svg\",\n        link: \"https://facebook.com\"\n      },\n      {\n        name: \"Instagram\",\n        url: \"/img/instagram.svg\",\n        link: \"https://instagram.com\"\n      }\n    ]);\n    const footerLinks = ref([\n      {\n        name: \"Hjem\",\n        link: \"/\"\n      },\n      {\n        name: \"Om\",\n        link: \"/\"\n      },\n      {\n        name: \"Projekter\",\n        link: \"/\"\n      },\n      {\n        name: \"Kontakt\",\n        link: \"/\"\n      }\n    ]);\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _hoisted_2,\n        _createElementVNode(\"div\", _hoisted_3, [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(socialImages), (social) => {\n            return _openBlock(), _createElementBlock(\"div\", _hoisted_4, [\n              _createVNode(_component_NuxtLink, {\n                to: social.link,\n                target: \"_blank\"\n              }, {\n                default: _withCtx(() => [\n                  _createElementVNode(\"img\", {\n                    src: social.url\n                  }, null, 8, _hoisted_5)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]);\n          }), 256))\n        ]),\n        _createElementVNode(\"div\", _hoisted_6, [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(footerLinks), (footer) => {\n            return _openBlock(), _createElementBlock(\"div\", _hoisted_7, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: footer.link\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(footer.name), 1)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]);\n          }), 256))\n        ]),\n        _hoisted_8\n      ]);\n    };\n  }\n});\n",
+      "start": 1705327008547,
+      "end": 1705327008552,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": ";AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACla,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACvC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/H,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1H,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtG,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACvB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACxB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjH,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChH,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327008552,
+      "end": 1705327008552,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327008552,
+      "end": 1705327008552,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1705327008552,
+      "end": 1705327008552,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1705327008552,
+      "end": 1705327008552,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Github/nuxt-portfolio/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { ref } from 'vue';\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, unref as _unref, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-5e46f2f2\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"footer\" };\nconst _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"line\" }, null, -1));\nconst _hoisted_3 = { class: \"social_icons\" };\nconst _hoisted_4 = { class: \"icons\" };\nconst _hoisted_5 = [\"src\"];\nconst _hoisted_6 = { class: \"social_links\" };\nconst _hoisted_7 = { class: \"footer_links\" };\nconst _hoisted_8 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"copyright\" }, [\n  /* @__PURE__ */ _createElementVNode(\"p\", null, \"© 2024 Erik Sørheim. Ingen rettigheter forbeholdes\")\n], -1));\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Footer\",\n  setup(__props) {\n    const socialImages = ref([\n      {\n        name: \"Github\",\n        url: \"/img/github.svg\",\n        link: \"https://github.com/ErikOkau\"\n      },\n      {\n        name: \"Gmail\",\n        url: \"/img/gmail.svg\",\n        link: \"mailto: ersor29@gmail.com\"\n      },\n      {\n        name: \"Facebook\",\n        url: \"/img/facebook.svg\",\n        link: \"https://facebook.com\"\n      },\n      {\n        name: \"Instagram\",\n        url: \"/img/instagram.svg\",\n        link: \"https://instagram.com\"\n      }\n    ]);\n    const footerLinks = ref([\n      {\n        name: \"Hjem\",\n        link: \"/\"\n      },\n      {\n        name: \"Om\",\n        link: \"/\"\n      },\n      {\n        name: \"Projekter\",\n        link: \"/\"\n      },\n      {\n        name: \"Kontakt\",\n        link: \"/\"\n      }\n    ]);\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = __nuxt_component_0;\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _hoisted_2,\n        _createElementVNode(\"div\", _hoisted_3, [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(socialImages), (social) => {\n            return _openBlock(), _createElementBlock(\"div\", _hoisted_4, [\n              _createVNode(_component_NuxtLink, {\n                to: social.link,\n                target: \"_blank\"\n              }, {\n                default: _withCtx(() => [\n                  _createElementVNode(\"img\", {\n                    src: social.url\n                  }, null, 8, _hoisted_5)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]);\n          }), 256))\n        ]),\n        _createElementVNode(\"div\", _hoisted_6, [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(_unref(footerLinks), (footer) => {\n            return _openBlock(), _createElementBlock(\"div\", _hoisted_7, [\n              _createVNode(_component_NuxtLink, {\n                class: \"link\",\n                to: footer.link\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(footer.name), 1)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]);\n          }), 256))\n        ]),\n        _hoisted_8\n      ]);\n    };\n  }\n});\n",
+      "start": 1705327008552,
+      "end": 1705327008553,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1705327008553,
+      "end": 1705327008553,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1705327008553,
+      "end": 1705327008553,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1705327008553,
+      "end": 1705327008553,
+      "order": "normal"
+    }
+  ]
+}

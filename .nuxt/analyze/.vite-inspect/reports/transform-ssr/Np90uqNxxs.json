@@ -1,0 +1,283 @@
+{
+  "resolvedId": "C:/Github/nuxt-portfolio/components/Projects.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\nimport _imports_0 from '/img/vue.svg'\nimport _imports_1 from '/img/firebase.svg'\nimport _imports_2 from '/img/csharp.svg'\nimport _imports_3 from '/img/dotnet.svg'\nimport _imports_4 from '/img/typescript.svg'\n\n\nimport { type Projects } from \"@/utils/types\";\r\n\r\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Projects',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\nconst projects: Projects[] = [\r\n    {\r\n        title: \"Kjøreskole\",\r\n        image: \"/img/Kjoreskole.png\",\r\n    },\r\n    {\r\n        title: \"OCR Program\",\r\n        description: \"Lesing av PDF-er mottat på e-post og konvertere teksten til en tom fil.\",\r\n    },\r\n    {\r\n        title: \"Valgomat\",\r\n        image: \"/img/Valgomat.png\",\r\n    }\r\n]\r\n\r\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  const _component_Readmore = _resolveComponent(\"Readmore\")!\n\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"boxes\" }, _attrs))\n  } data-v-c02f5d2b><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${\n    _ssrInterpolate(projects[0].title)\n  }</h3><img class=\"img\"${\n    _ssrRenderAttr(\"src\", projects[0].image)\n  } data-v-c02f5d2b><div class=\"icons1\" data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } data-v-c02f5d2b></div>`)\n  _push(_ssrRenderComponent(_component_Readmore, null, null, _parent))\n  _push(`</div><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${\n    _ssrInterpolate(projects[1].title)\n  }</h3><p data-v-c02f5d2b>${\n    _ssrInterpolate(projects[1].description)\n  }</p><div class=\"icons2\" data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_2)\n  } data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_3)\n  } data-v-c02f5d2b></div>`)\n  _push(_ssrRenderComponent(_component_Readmore, null, null, _parent))\n  _push(`</div><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${\n    _ssrInterpolate(projects[2].title)\n  }</h3><img class=\"img2\"${\n    _ssrRenderAttr(\"src\", projects[2].image)\n  } data-v-c02f5d2b><div class=\"icons3\" data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_4)\n  } data-v-c02f5d2b></div>`)\n  _push(_ssrRenderComponent(_component_Readmore, null, null, _parent))\n  _push(`</div></div>`)\n}\n}\n\n})",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Projects.vue"
+        ],
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\r\nimport { type Projects } from \"@/utils/types\";\r\n\r\nconst projects: Projects[] = [\r\n    {\r\n        title: \"Kjøreskole\",\r\n        image: \"/img/Kjoreskole.png\",\r\n    },\r\n    {\r\n        title: \"OCR Program\",\r\n        description: \"Lesing av PDF-er mottat på e-post og konvertere teksten til en tom fil.\",\r\n    },\r\n    {\r\n        title: \"Valgomat\",\r\n        image: \"/img/Valgomat.png\",\r\n    }\r\n]\r\n\r\n</script>\r\n\r\n<template>\r\n    <div class=\"boxes\">\r\n        <div class=\"box\">\r\n            <h3>{{ projects[0].title }}</h3>\r\n            <img class=\"img\" :src=\"projects[0].image\">\r\n            <div class=\"icons1\">\r\n                <img src=\"/img/vue.svg\">\r\n                <img src=\"/img/firebase.svg\">\r\n            </div>\r\n            <Readmore />\r\n        </div>\r\n        <div class=\"box\">\r\n            <h3>{{ projects[1].title }}</h3>\r\n            <p>{{ projects[1].description }}</p>\r\n            <div class=\"icons2\">\r\n                <img src=\"/img/csharp.svg\">\r\n                <img src=\"/img/dotnet.svg\">\r\n            </div>\r\n            <Readmore />\r\n        </div>\r\n        <div class=\"box\">\r\n            <h3>{{ projects[2].title }}</h3>\r\n            <img class=\"img2\" :src=\"projects[2].image\">\r\n            <div class=\"icons3\">\r\n                <img src=\"/img/vue.svg\">\r\n                <img src=\"/img/typescript.svg\">\r\n            </div>\r\n            <Readmore />\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<style scoped lang=\"scss\">\r\n.boxes {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: center;\r\n    margin-top: 5rem;\r\n    margin-bottom: 10rem;\r\n    gap: 6rem;\r\n\r\n\r\n    .box {\r\n        display: flex;\r\n        flex-direction: column;\r\n        border: solid black 2px;\r\n        padding: 1rem 3rem 2rem 1rem;\r\n        width: 27rem;\r\n\r\n        .icons2 {\r\n            padding-top: 8rem;\r\n            gap: 0.5rem;\r\n        }\r\n\r\n        .icons3 {\r\n            padding-top: 3rem;\r\n            gap: 0.5rem;\r\n        }\r\n    }\r\n\r\n    h3 {\r\n        font-size: 2rem;\r\n        font-weight: 300;\r\n    }\r\n\r\n    p {\r\n        margin-top: 0.5rem;\r\n        font-size: 1.5rem;\r\n        width: 25rem;\r\n    }\r\n\r\n    .img {\r\n        width: 25rem;\r\n        height: 11.5rem;\r\n        margin-top: 1rem;\r\n    }\r\n\r\n    .img2 {\r\n        width: 25rem;\r\n        height: 8rem;\r\n        margin-top: 1rem;\r\n    }\r\n\r\n    .icons1, .icons2, .icons3 {\r\n        display: flex;\r\n        \r\n        img {\r\n            transition: all 0.3s ease-in-out;\r\n            width: 3rem;\r\n            height: 3rem;\r\n            margin-top: 2rem;\r\n\r\n            &:hover {\r\n                transform: scale(1.2);\r\n                cursor: pointer;\r\n            }\r\n        }\r\n    }\r\n}\r\n</style>"
+        ],
+        "names": [],
+        "mappings": ";;;;;;;;;;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/C,CAAC;;;;;;AAFuB,CAAC;AAGzB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChG,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC;AACF,CAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1705327013090,
+      "end": 1705327013090,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\";\nimport _imports_0 from \"/img/vue.svg\";\nimport _imports_1 from \"/img/firebase.svg\";\nimport _imports_2 from \"/img/csharp.svg\";\nimport _imports_3 from \"/img/dotnet.svg\";\nimport _imports_4 from \"/img/typescript.svg\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Projects\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const projects = [\n      {\n        title: \"Kjøreskole\",\n        image: \"/img/Kjoreskole.png\"\n      },\n      {\n        title: \"OCR Program\",\n        description: \"Lesing av PDF-er mottat på e-post og konvertere teksten til en tom fil.\"\n      },\n      {\n        title: \"Valgomat\",\n        image: \"/img/Valgomat.png\"\n      }\n    ];\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_Readmore = _resolveComponent(\"Readmore\");\n      _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"boxes\" }, _attrs))} data-v-c02f5d2b><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${_ssrInterpolate(projects[0].title)}</h3><img class=\"img\"${_ssrRenderAttr(\"src\", projects[0].image)} data-v-c02f5d2b><div class=\"icons1\" data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_0)} data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_1)} data-v-c02f5d2b></div>`);\n      _push(_ssrRenderComponent(_component_Readmore, null, null, _parent));\n      _push(`</div><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${_ssrInterpolate(projects[1].title)}</h3><p data-v-c02f5d2b>${_ssrInterpolate(projects[1].description)}</p><div class=\"icons2\" data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_2)} data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_3)} data-v-c02f5d2b></div>`);\n      _push(_ssrRenderComponent(_component_Readmore, null, null, _parent));\n      _push(`</div><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${_ssrInterpolate(projects[2].title)}</h3><img class=\"img2\"${_ssrRenderAttr(\"src\", projects[2].image)} data-v-c02f5d2b><div class=\"icons3\" data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_0)} data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_4)} data-v-c02f5d2b></div>`);\n      _push(_ssrRenderComponent(_component_Readmore, null, null, _parent));\n      _push(`</div></div>`);\n    };\n  }\n});\n",
+      "start": 1705327013097,
+      "end": 1705327013152,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Projects.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\nimport _imports_0 from '/img/vue.svg'\nimport _imports_1 from '/img/firebase.svg'\nimport _imports_2 from '/img/csharp.svg'\nimport _imports_3 from '/img/dotnet.svg'\nimport _imports_4 from '/img/typescript.svg'\n\n\nimport { type Projects } from \"@/utils/types\";\r\n\r\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Projects',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\nconst projects: Projects[] = [\r\n    {\r\n        title: \"Kjøreskole\",\r\n        image: \"/img/Kjoreskole.png\",\r\n    },\r\n    {\r\n        title: \"OCR Program\",\r\n        description: \"Lesing av PDF-er mottat på e-post og konvertere teksten til en tom fil.\",\r\n    },\r\n    {\r\n        title: \"Valgomat\",\r\n        image: \"/img/Valgomat.png\",\r\n    }\r\n]\r\n\r\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  const _component_Readmore = _resolveComponent(\"Readmore\")!\n\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"boxes\" }, _attrs))\n  } data-v-c02f5d2b><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${\n    _ssrInterpolate(projects[0].title)\n  }</h3><img class=\"img\"${\n    _ssrRenderAttr(\"src\", projects[0].image)\n  } data-v-c02f5d2b><div class=\"icons1\" data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } data-v-c02f5d2b></div>`)\n  _push(_ssrRenderComponent(_component_Readmore, null, null, _parent))\n  _push(`</div><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${\n    _ssrInterpolate(projects[1].title)\n  }</h3><p data-v-c02f5d2b>${\n    _ssrInterpolate(projects[1].description)\n  }</p><div class=\"icons2\" data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_2)\n  } data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_3)\n  } data-v-c02f5d2b></div>`)\n  _push(_ssrRenderComponent(_component_Readmore, null, null, _parent))\n  _push(`</div><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${\n    _ssrInterpolate(projects[2].title)\n  }</h3><img class=\"img2\"${\n    _ssrRenderAttr(\"src\", projects[2].image)\n  } data-v-c02f5d2b><div class=\"icons3\" data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } data-v-c02f5d2b><img${\n    _ssrRenderAttr(\"src\", _imports_4)\n  } data-v-c02f5d2b></div>`)\n  _push(_ssrRenderComponent(_component_Readmore, null, null, _parent))\n  _push(`</div></div>`)\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,oBAAoB,mBAAmB,cAAc,mBAAmB;AACjF,SAAS,iBAAiB,gBAAgB,sBAAsB,qBAAqB,kBAAkB,iBAAiB,kBAAkB,uBAAuB;AACjK,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AAMvB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,mBAAmB;AAAA,EACnB,MAAM,SAAS;AAEjB,UAAM,WAAuB;AAAA,MACzB;AAAA,QACI,OAAO;AAAA,QACP,OAAO;AAAA,MACX;AAAA,MACA;AAAA,QACI,OAAO;AAAA,QACP,aAAa;AAAA,MACjB;AAAA,MACA;AAAA,QACI,OAAO;AAAA,QACP,OAAO;AAAA,MACX;AAAA,IACJ;AAGA,WAAO,CAAC,MAAU,OAAW,SAAa,WAAgB;AACxD,YAAM,sBAAsB,kBAAkB,UAAU;AAExD,YAAM,OACJ,gBAAgB,YAAY,EAAE,OAAO,QAAQ,GAAG,MAAM,CAAC,CACzD,yEACE,gBAAgB,SAAS,CAAC,EAAE,KAAK,CACnC,wBACE,eAAe,OAAO,SAAS,CAAC,EAAE,KAAK,CACzC,4DACE,eAAe,OAAO,UAAU,CAClC,wBACE,eAAe,OAAO,UAAU,CAClC,yBAAyB;AACzB,YAAM,oBAAoB,qBAAqB,MAAM,MAAM,OAAO,CAAC;AACnE,YAAM,8DACJ,gBAAgB,SAAS,CAAC,EAAE,KAAK,CACnC,2BACE,gBAAgB,SAAS,CAAC,EAAE,WAAW,CACzC,+CACE,eAAe,OAAO,UAAU,CAClC,wBACE,eAAe,OAAO,UAAU,CAClC,yBAAyB;AACzB,YAAM,oBAAoB,qBAAqB,MAAM,MAAM,OAAO,CAAC;AACnE,YAAM,8DACJ,gBAAgB,SAAS,CAAC,EAAE,KAAK,CACnC,yBACE,eAAe,OAAO,SAAS,CAAC,EAAE,KAAK,CACzC,4DACE,eAAe,OAAO,UAAU,CAClC,wBACE,eAAe,OAAO,UAAU,CAClC,yBAAyB;AACzB,YAAM,oBAAoB,qBAAqB,MAAM,MAAM,OAAO,CAAC;AACnE,YAAM,cAAc;AAAA,IACtB;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1705327013152,
+      "end": 1705327013152,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1705327013153,
+      "end": 1705327013153,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1705327013153,
+      "end": 1705327013153,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1705327013153,
+      "end": 1705327013153,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1705327013153,
+      "end": 1705327013153,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1705327013153,
+      "end": 1705327013153,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1705327013153,
+      "end": 1705327013153,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1705327013153,
+      "end": 1705327013153,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1705327013153,
+      "end": 1705327013153,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327013153,
+      "end": 1705327013153,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327013153,
+      "end": 1705327013153,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327013153,
+      "end": 1705327013155,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327013153,
+      "end": 1705327013155,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327013155,
+      "end": 1705327013155,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327013155,
+      "end": 1705327013155,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327013155,
+      "end": 1705327013155,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327013155,
+      "end": 1705327013155,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1705327013155,
+      "end": 1705327013155,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Github/nuxt-portfolio/components/Readmore.vue\";\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\";\nimport _imports_0 from \"/img/vue.svg\";\nimport _imports_1 from \"/img/firebase.svg\";\nimport _imports_2 from \"/img/csharp.svg\";\nimport _imports_3 from \"/img/dotnet.svg\";\nimport _imports_4 from \"/img/typescript.svg\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Projects\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const projects = [\n      {\n        title: \"Kjøreskole\",\n        image: \"/img/Kjoreskole.png\"\n      },\n      {\n        title: \"OCR Program\",\n        description: \"Lesing av PDF-er mottat på e-post og konvertere teksten til en tom fil.\"\n      },\n      {\n        title: \"Valgomat\",\n        image: \"/img/Valgomat.png\"\n      }\n    ];\n    return (_ctx, _push, _parent, _attrs) => {\n      const _component_Readmore = __nuxt_component_0;\n      _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"boxes\" }, _attrs))} data-v-c02f5d2b><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${_ssrInterpolate(projects[0].title)}</h3><img class=\"img\"${_ssrRenderAttr(\"src\", projects[0].image)} data-v-c02f5d2b><div class=\"icons1\" data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_0)} data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_1)} data-v-c02f5d2b></div>`);\n      _push(_ssrRenderComponent(_component_Readmore, null, null, _parent));\n      _push(`</div><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${_ssrInterpolate(projects[1].title)}</h3><p data-v-c02f5d2b>${_ssrInterpolate(projects[1].description)}</p><div class=\"icons2\" data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_2)} data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_3)} data-v-c02f5d2b></div>`);\n      _push(_ssrRenderComponent(_component_Readmore, null, null, _parent));\n      _push(`</div><div class=\"box\" data-v-c02f5d2b><h3 data-v-c02f5d2b>${_ssrInterpolate(projects[2].title)}</h3><img class=\"img2\"${_ssrRenderAttr(\"src\", projects[2].image)} data-v-c02f5d2b><div class=\"icons3\" data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_0)} data-v-c02f5d2b><img${_ssrRenderAttr(\"src\", _imports_4)} data-v-c02f5d2b></div>`);\n      _push(_ssrRenderComponent(_component_Readmore, null, null, _parent));\n      _push(`</div></div>`);\n    };\n  }\n});\n",
+      "start": 1705327013155,
+      "end": 1705327013156,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": ";AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACvF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACvL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC5B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9F,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,kBAA6B,CAAC;AAChE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACva,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3E,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3E,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9V,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3E,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC5B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1705327013159,
+      "end": 1705327013159,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1705327013159,
+      "end": 1705327013160,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1705327013160,
+      "end": 1705327013160,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "resolvedId": "C:/Github/nuxt-portfolio/components/Projects.vue?vue&type=style&index=0&scoped=c02f5d2b&lang.scss",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.boxes {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: center;\r\n    margin-top: 5rem;\r\n    margin-bottom: 10rem;\r\n    gap: 6rem;\r\n\r\n\r\n    .box {\r\n        display: flex;\r\n        flex-direction: column;\r\n        border: solid black 2px;\r\n        padding: 1rem 3rem 2rem 1rem;\r\n        width: 27rem;\r\n\r\n        .icons2 {\r\n            padding-top: 8rem;\r\n            gap: 0.5rem;\r\n        }\r\n\r\n        .icons3 {\r\n            padding-top: 3rem;\r\n            gap: 0.5rem;\r\n        }\r\n    }\r\n\r\n    h3 {\r\n        font-size: 2rem;\r\n        font-weight: 300;\r\n    }\r\n\r\n    p {\r\n        margin-top: 0.5rem;\r\n        font-size: 1.5rem;\r\n        width: 25rem;\r\n    }\r\n\r\n    .img {\r\n        width: 25rem;\r\n        height: 11.5rem;\r\n        margin-top: 1rem;\r\n    }\r\n\r\n    .img2 {\r\n        width: 25rem;\r\n        height: 8rem;\r\n        margin-top: 1rem;\r\n    }\r\n\r\n    .icons1, .icons2, .icons3 {\r\n        display: flex;\r\n        \r\n        img {\r\n            transition: all 0.3s ease-in-out;\r\n            width: 3rem;\r\n            height: 3rem;\r\n            margin-top: 2rem;\r\n\r\n            &:hover {\r\n                transform: scale(1.2);\r\n                cursor: pointer;\r\n            }\r\n        }\r\n    }\r\n}\r\n",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Projects.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Github/nuxt-portfolio/components/Projects.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\r\nimport { type Projects } from \"@/utils/types\";\r\n\r\nconst projects: Projects[] = [\r\n    {\r\n        title: \"Kjøreskole\",\r\n        image: \"/img/Kjoreskole.png\",\r\n    },\r\n    {\r\n        title: \"OCR Program\",\r\n        description: \"Lesing av PDF-er mottat på e-post og konvertere teksten til en tom fil.\",\r\n    },\r\n    {\r\n        title: \"Valgomat\",\r\n        image: \"/img/Valgomat.png\",\r\n    }\r\n]\r\n\r\n</script>\r\n\r\n<template>\r\n    <div class=\"boxes\">\r\n        <div class=\"box\">\r\n            <h3>{{ projects[0].title }}</h3>\r\n            <img class=\"img\" :src=\"projects[0].image\">\r\n            <div class=\"icons1\">\r\n                <img src=\"/img/vue.svg\">\r\n                <img src=\"/img/firebase.svg\">\r\n            </div>\r\n            <Readmore />\r\n        </div>\r\n        <div class=\"box\">\r\n            <h3>{{ projects[1].title }}</h3>\r\n            <p>{{ projects[1].description }}</p>\r\n            <div class=\"icons2\">\r\n                <img src=\"/img/csharp.svg\">\r\n                <img src=\"/img/dotnet.svg\">\r\n            </div>\r\n            <Readmore />\r\n        </div>\r\n        <div class=\"box\">\r\n            <h3>{{ projects[2].title }}</h3>\r\n            <img class=\"img2\" :src=\"projects[2].image\">\r\n            <div class=\"icons3\">\r\n                <img src=\"/img/vue.svg\">\r\n                <img src=\"/img/typescript.svg\">\r\n            </div>\r\n            <Readmore />\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<style scoped lang=\"scss\">\r\n.boxes {\r\n    display: flex;\r\n    flex-direction: row;\r\n    justify-content: center;\r\n    margin-top: 5rem;\r\n    margin-bottom: 10rem;\r\n    gap: 6rem;\r\n\r\n\r\n    .box {\r\n        display: flex;\r\n        flex-direction: column;\r\n        border: solid black 2px;\r\n        padding: 1rem 3rem 2rem 1rem;\r\n        width: 27rem;\r\n\r\n        .icons2 {\r\n            padding-top: 8rem;\r\n            gap: 0.5rem;\r\n        }\r\n\r\n        .icons3 {\r\n            padding-top: 3rem;\r\n            gap: 0.5rem;\r\n        }\r\n    }\r\n\r\n    h3 {\r\n        font-size: 2rem;\r\n        font-weight: 300;\r\n    }\r\n\r\n    p {\r\n        margin-top: 0.5rem;\r\n        font-size: 1.5rem;\r\n        width: 25rem;\r\n    }\r\n\r\n    .img {\r\n        width: 25rem;\r\n        height: 11.5rem;\r\n        margin-top: 1rem;\r\n    }\r\n\r\n    .img2 {\r\n        width: 25rem;\r\n        height: 8rem;\r\n        margin-top: 1rem;\r\n    }\r\n\r\n    .icons1, .icons2, .icons3 {\r\n        display: flex;\r\n        \r\n        img {\r\n            transition: all 0.3s ease-in-out;\r\n            width: 3rem;\r\n            height: 3rem;\r\n            margin-top: 2rem;\r\n\r\n            &:hover {\r\n                transform: scale(1.2);\r\n                cursor: pointer;\r\n            }\r\n        }\r\n    }\r\n}\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1705327013089,
+      "end": 1705327013089,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".boxes{display:flex;flex-direction:row;gap:6rem;justify-content:center;margin-bottom:10rem;margin-top:5rem}.boxes .box{border:2px solid #000;display:flex;flex-direction:column;padding:1rem 3rem 2rem 1rem;width:27rem}.boxes .box .icons2{gap:.5rem;padding-top:8rem}.boxes .box .icons3{gap:.5rem;padding-top:3rem}.boxes h3{font-size:2rem;font-weight:300}.boxes p{font-size:1.5rem;margin-top:.5rem;width:25rem}.boxes .img{height:11.5rem}.boxes .img,.boxes .img2{margin-top:1rem;width:25rem}.boxes .img2{height:8rem}.boxes .icons1,.boxes .icons2,.boxes .icons3{display:flex}.boxes .icons1 img,.boxes .icons2 img,.boxes .icons3 img{height:3rem;margin-top:2rem;transition:all .3s ease-in-out;width:3rem}.boxes .icons1 img:hover,.boxes .icons2 img:hover,.boxes .icons3 img:hover{cursor:pointer;transform:scale(1.2)}",
+      "start": 1705327013090,
+      "end": 1705327013140,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "C:/Github/nuxt-portfolio/components/Projects.vue",
+        "mappings": "AACA,OACI,aACA,mBAIA,SAHA,uBAEA,oBADA,gBAKA,YAGI,sBAFA,aACA,sBAEA,4BACA,YAEA,oBAEI,UADA,iBAIJ,oBAEI,UADA,iBAKR,UACI,eACA,gBAGJ,SAEI,iBADA,iBAEA,YAGJ,YAEI,eAIJ,yBAHI,gBAFA,YAKJ,aAEI,YAIJ,6CACI,aAEA,yDAGI,YACA,gBAHA,+BACA,WAIA,2EAEI,eADA",
+        "names": [],
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Projects.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1705327013141,
+      "end": 1705327013141,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1705327013141,
+      "end": 1705327013141,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1705327013141,
+      "end": 1705327013141,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".boxes[data-v-c02f5d2b]{display:flex;flex-direction:row;gap:6rem;justify-content:center;margin-bottom:10rem;margin-top:5rem}.boxes .box[data-v-c02f5d2b]{border:2px solid #000;display:flex;flex-direction:column;padding:1rem 3rem 2rem 1rem;width:27rem}.boxes .box .icons2[data-v-c02f5d2b]{gap:.5rem;padding-top:8rem}.boxes .box .icons3[data-v-c02f5d2b]{gap:.5rem;padding-top:3rem}.boxes h3[data-v-c02f5d2b]{font-size:2rem;font-weight:300}.boxes p[data-v-c02f5d2b]{font-size:1.5rem;margin-top:.5rem;width:25rem}.boxes .img[data-v-c02f5d2b]{height:11.5rem}.boxes .img[data-v-c02f5d2b],.boxes .img2[data-v-c02f5d2b]{margin-top:1rem;width:25rem}.boxes .img2[data-v-c02f5d2b]{height:8rem}.boxes .icons1[data-v-c02f5d2b],.boxes .icons2[data-v-c02f5d2b],.boxes .icons3[data-v-c02f5d2b]{display:flex}.boxes .icons1 img[data-v-c02f5d2b],.boxes .icons2 img[data-v-c02f5d2b],.boxes .icons3 img[data-v-c02f5d2b]{height:3rem;margin-top:2rem;transition:all .3s ease-in-out;width:3rem}.boxes .icons1 img[data-v-c02f5d2b]:hover,.boxes .icons2 img[data-v-c02f5d2b]:hover,.boxes .icons3 img[data-v-c02f5d2b]:hover{cursor:pointer;transform:scale(1.2)}",
+      "start": 1705327013144,
+      "end": 1705327013148,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Github/nuxt-portfolio/components/Projects.vue",
+        "mappings": "AAAA,wBAAO,YAAY,CAAC,kBAAkB,CAAC,QAAQ,CAAC,sBAAsB,CAAC,mBAAmB,CAAC,eAAe,CAAC,6BAAY,qBAAqB,CAAC,YAAY,CAAC,qBAAqB,CAAC,2BAA2B,CAAC,WAAW,CAAC,qCAAoB,SAAS,CAAC,gBAAgB,CAAC,qCAAoB,SAAS,CAAC,gBAAgB,CAAC,2BAAU,cAAc,CAAC,eAAe,CAAC,0BAAS,gBAAgB,CAAC,gBAAgB,CAAC,WAAW,CAAC,6BAAY,cAAc,CAAC,2DAAyB,eAAe,CAAC,WAAW,CAAC,8BAAa,WAAW,CAAC,gGAA6C,YAAY,CAAC,4GAAyD,WAAW,CAAC,eAAe,CAAC,8BAA8B,CAAC,UAAU,CAAC,8HAA2E,cAAc,CAAC,oBAAoB",
+        "names": [],
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Projects.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013148,
+      "end": 1705327013148,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327013149,
+      "end": 1705327013149,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1705327013150,
+      "end": 1705327013150,
+      "order": "normal"
+    }
+  ]
+}

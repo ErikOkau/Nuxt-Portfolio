@@ -1,0 +1,222 @@
+{
+  "resolvedId": "C:/Github/nuxt-portfolio/components/Navbar.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/img/logo.svg'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-f4247d8a\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"navbar\" }\nconst _hoisted_2 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"left_navbar\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"navbar__logo\" }, [\n    /*#__PURE__*/_createElementVNode(\"img\", {\n      class: \"logo\",\n      src: _imports_0\n    })\n  ])\n], -1))\nconst _hoisted_3 = { class: \"middle_navbar\" }\nconst _hoisted_4 = { class: \"routerlinks\" }\nconst _hoisted_5 = { class: \"right_navbar\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Navbar',\n  setup(__props) {\n\r\n// Array of navbar links\r\nconst navbarLinks = [\r\n    {\r\n        name: \"Hjem\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Om\",\r\n        link: \"/about\"\r\n    },\r\n    {\r\n        name: \"Projekter\",\r\n        link: \"/projects\"\r\n    },\r\n    {\r\n        name: \"Kontakt\",\r\n        link: \"/contact\"\r\n    }\r\n]\r\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n  const _component_Search = _resolveComponent(\"Search\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      (_openBlock(), _createElementBlock(_Fragment, null, _renderList(navbarLinks, (navbar) => {\n        return _createElementVNode(\"div\", _hoisted_4, [\n          _createVNode(_component_NuxtLink, {\n            class: \"RouterLink\",\n            to: { path: navbar.link }\n          }, {\n            default: _withCtx(() => [\n              _createTextVNode(_toDisplayString(navbar.name), 1)\n            ]),\n            _: 2\n          }, 1032, [\"to\"])\n        ])\n      }), 64))\n    ]),\n    _createElementVNode(\"div\", _hoisted_5, [\n      _createVNode(_component_Search)\n    ])\n  ]))\n}\n}\n\n})",
+      "start": 1705327008537,
+      "end": 1705327008537
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327008537,
+      "end": 1705327008537,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327008537,
+      "end": 1705327008537,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1705327008537,
+      "end": 1705327008537,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1705327008537,
+      "end": 1705327008537,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nimport _imports_0 from \"/img/logo.svg\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-f4247d8a\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"navbar\" };\nconst _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"left_navbar\" }, [\n  /* @__PURE__ */ _createElementVNode(\"div\", { class: \"navbar__logo\" }, [\n    /* @__PURE__ */ _createElementVNode(\"img\", {\n      class: \"logo\",\n      src: _imports_0\n    })\n  ])\n], -1));\nconst _hoisted_3 = { class: \"middle_navbar\" };\nconst _hoisted_4 = { class: \"routerlinks\" };\nconst _hoisted_5 = { class: \"right_navbar\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Navbar\",\n  setup(__props) {\n    const navbarLinks = [\n      {\n        name: \"Hjem\",\n        link: \"/\"\n      },\n      {\n        name: \"Om\",\n        link: \"/about\"\n      },\n      {\n        name: \"Projekter\",\n        link: \"/projects\"\n      },\n      {\n        name: \"Kontakt\",\n        link: \"/contact\"\n      }\n    ];\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n      const _component_Search = _resolveComponent(\"Search\");\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _hoisted_2,\n        _createElementVNode(\"div\", _hoisted_3, [\n          (_openBlock(), _createElementBlock(_Fragment, null, _renderList(navbarLinks, (navbar) => {\n            return _createElementVNode(\"div\", _hoisted_4, [\n              _createVNode(_component_NuxtLink, {\n                class: \"RouterLink\",\n                to: { path: navbar.link }\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(navbar.name), 1)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]);\n          }), 64))\n        ]),\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createVNode(_component_Search)\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1705327008545,
+      "end": 1705327008759,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Navbar.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/img/logo.svg'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-f4247d8a\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"navbar\" }\nconst _hoisted_2 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"left_navbar\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"navbar__logo\" }, [\n    /*#__PURE__*/_createElementVNode(\"img\", {\n      class: \"logo\",\n      src: _imports_0\n    })\n  ])\n], -1))\nconst _hoisted_3 = { class: \"middle_navbar\" }\nconst _hoisted_4 = { class: \"routerlinks\" }\nconst _hoisted_5 = { class: \"right_navbar\" }\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Navbar',\n  setup(__props) {\n\r\n// Array of navbar links\r\nconst navbarLinks = [\r\n    {\r\n        name: \"Hjem\",\r\n        link: \"/\"\r\n    },\r\n    {\r\n        name: \"Om\",\r\n        link: \"/about\"\r\n    },\r\n    {\r\n        name: \"Projekter\",\r\n        link: \"/projects\"\r\n    },\r\n    {\r\n        name: \"Kontakt\",\r\n        link: \"/contact\"\r\n    }\r\n]\r\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")!\n  const _component_Search = _resolveComponent(\"Search\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      (_openBlock(), _createElementBlock(_Fragment, null, _renderList(navbarLinks, (navbar) => {\n        return _createElementVNode(\"div\", _hoisted_4, [\n          _createVNode(_component_NuxtLink, {\n            class: \"RouterLink\",\n            to: { path: navbar.link }\n          }, {\n            default: _withCtx(() => [\n              _createTextVNode(_toDisplayString(navbar.name), 1)\n            ]),\n            _: 2\n          }, 1032, [\"to\"])\n        ])\n      }), 64))\n    ]),\n    _createElementVNode(\"div\", _hoisted_5, [\n      _createVNode(_component_Search)\n    ])\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,sBAAsB,qBAAqB,cAAc,aAAa,YAAY,WAAW,aAAa,YAAY,sBAAsB,qBAAqB,mBAAmB,kBAAkB,mBAAmB,kBAAkB,oBAAoB,mBAAmB,WAAW,UAAU,eAAe,cAAc,eAAe,cAAc,cAAc,mBAAmB;AAC3Y,OAAO,gBAAgB;AAGvB,MAAM,eAAe,QAAM,aAAa,iBAAiB,GAAE,IAAE,EAAE,GAAE,YAAY,GAAE;AAC/E,MAAM,aAAa,EAAE,OAAO,SAAS;AACrC,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,OAAO,EAAE,OAAO,cAAc,GAAG;AAAA,EACvG,oCAAoB,OAAO,EAAE,OAAO,eAAe,GAAG;AAAA,IACpD,oCAAoB,OAAO;AAAA,MACtC,OAAO;AAAA,MACP,KAAK;AAAA,IACP,CAAC;AAAA,EACH,CAAC;AACH,GAAG,EAAE,CAAC;AACN,MAAM,aAAa,EAAE,OAAO,gBAAgB;AAC5C,MAAM,aAAa,EAAE,OAAO,cAAc;AAC1C,MAAM,aAAa,EAAE,OAAO,eAAe;AAG3C,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAGjB,UAAM,cAAc;AAAA,MAChB;AAAA,QACI,MAAM;AAAA,QACN,MAAM;AAAA,MACV;AAAA,MACA;AAAA,QACI,MAAM;AAAA,QACN,MAAM;AAAA,MACV;AAAA,MACA;AAAA,QACI,MAAM;AAAA,QACN,MAAM;AAAA,MACV;AAAA,MACA;AAAA,QACI,MAAM;AAAA,QACN,MAAM;AAAA,MACV;AAAA,IACJ;AAEA,WAAO,CAAC,MAAU,WAAgB;AAChC,YAAM,sBAAsB,kBAAkB,UAAU;AACxD,YAAM,oBAAoB,kBAAkB,QAAQ;AAEpD,aAAQ,WAAW,GAAG,oBAAoB,OAAO,YAAY;AAAA,QAC3D;AAAA,QACA,oBAAoB,OAAO,YAAY;AAAA,WACpC,WAAW,GAAG,oBAAoB,WAAW,MAAM,YAAY,aAAa,CAAC,WAAW;AACvF,mBAAO,oBAAoB,OAAO,YAAY;AAAA,cAC5C,aAAa,qBAAqB;AAAA,gBAChC,OAAO;AAAA,gBACP,IAAI,EAAE,MAAM,OAAO,KAAK;AAAA,cAC1B,GAAG;AAAA,gBACD,SAAS,SAAS,MAAM;AAAA,kBACtB,iBAAiB,iBAAiB,OAAO,IAAI,GAAG,CAAC;AAAA,gBACnD,CAAC;AAAA,gBACD,GAAG;AAAA,cACL,GAAG,MAAM,CAAC,IAAI,CAAC;AAAA,YACjB,CAAC;AAAA,UACH,CAAC,GAAG,EAAE;AAAA,QACR,CAAC;AAAA,QACD,oBAAoB,OAAO,YAAY;AAAA,UACrC,aAAa,iBAAiB;AAAA,QAChC,CAAC;AAAA,MACH,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1705327008759,
+      "end": 1705327008759,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1705327008759,
+      "end": 1705327008759,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1705327008759,
+      "end": 1705327008759,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1705327008759,
+      "end": 1705327008759,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327008759,
+      "end": 1705327008759,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327008759,
+      "end": 1705327008759,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1705327008759,
+      "end": 1705327008759,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1705327008759,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327008760,
+      "end": 1705327008760,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327008760,
+      "end": 1705327008764,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327008764,
+      "end": 1705327008764,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327008764,
+      "end": 1705327008764,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1705327008764,
+      "end": 1705327008764,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1705327008764,
+      "end": 1705327008764,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Github/nuxt-portfolio/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_1 } from \"C:/Github/nuxt-portfolio/components/Search.vue\";\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nimport _imports_0 from \"/img/logo.svg\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-f4247d8a\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"navbar\" };\nconst _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"left_navbar\" }, [\n  /* @__PURE__ */ _createElementVNode(\"div\", { class: \"navbar__logo\" }, [\n    /* @__PURE__ */ _createElementVNode(\"img\", {\n      class: \"logo\",\n      src: _imports_0\n    })\n  ])\n], -1));\nconst _hoisted_3 = { class: \"middle_navbar\" };\nconst _hoisted_4 = { class: \"routerlinks\" };\nconst _hoisted_5 = { class: \"right_navbar\" };\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Navbar\",\n  setup(__props) {\n    const navbarLinks = [\n      {\n        name: \"Hjem\",\n        link: \"/\"\n      },\n      {\n        name: \"Om\",\n        link: \"/about\"\n      },\n      {\n        name: \"Projekter\",\n        link: \"/projects\"\n      },\n      {\n        name: \"Kontakt\",\n        link: \"/contact\"\n      }\n    ];\n    return (_ctx, _cache) => {\n      const _component_NuxtLink = __nuxt_component_0;\n      const _component_Search = __nuxt_component_1;\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _hoisted_2,\n        _createElementVNode(\"div\", _hoisted_3, [\n          (_openBlock(), _createElementBlock(_Fragment, null, _renderList(navbarLinks, (navbar) => {\n            return _createElementVNode(\"div\", _hoisted_4, [\n              _createVNode(_component_NuxtLink, {\n                class: \"RouterLink\",\n                to: { path: navbar.link }\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(_toDisplayString(navbar.name), 1)\n                ]),\n                _: 2\n              }, 1032, [\"to\"])\n            ]);\n          }), 64))\n        ]),\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createVNode(_component_Search)\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1705327008764,
+      "end": 1705327008765,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1705327008765,
+      "end": 1705327008765,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1705327008765,
+      "end": 1705327008765,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1705327008765,
+      "end": 1705327008765,
+      "order": "normal"
+    }
+  ]
+}

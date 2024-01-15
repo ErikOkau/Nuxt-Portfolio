@@ -1,0 +1,294 @@
+{
+  "resolvedId": "C:/Github/nuxt-portfolio/components/threeJS/threeJS.vue?vue&type=style&index=0&scoped=1cf8a014&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.position {\r\n    cursor: pointer;\r\n}\r\n",
+      "start": 1705327012961,
+      "end": 1705327012961,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/threeJS/threeJS.vue"
+        ],
+        "names": [],
+        "mappings": ";AA6JA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB",
+        "file": "C:/Github/nuxt-portfolio/components/threeJS/threeJS.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<script setup lang=\"ts\">\r\nimport * as THREE from 'three'\r\nimport { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'\r\nimport { EdgesGeometry, LineBasicMaterial, LineSegments } from 'three'\r\n\r\nimport { gsap } from 'gsap'\r\n\r\nimport { onMounted, ref } from 'vue' // Import onMounted from Vue\r\n\r\nconst canvas = ref<HTMLCanvasElement>()\r\n\r\n\r\n\r\nonMounted(() => {\r\n    console.log(\"jwdjwjwdjwjwj\")\r\n    //Scene\r\n    if (canvas === null) {\r\n        console.error(\"Canvas element not found\")\r\n        return\r\n    }\r\n\r\n    const scene = new THREE.Scene()\r\n\r\n\r\n\r\n\r\n    //Create sphere\r\n    const geometry = new THREE.BoxGeometry(5, 5, 5)\r\n    const material = new THREE.MeshPhongMaterial({\r\n        color: '#000000',\r\n    })\r\n\r\n    const mesh = new THREE.Mesh(geometry, material)\r\n    scene.add(mesh)\r\n\r\n    // Create edges geometry\r\n    const edgesGeometry = new EdgesGeometry(geometry)\r\n    const edgesMaterial = new LineBasicMaterial({ color: '#ffffff' })\r\n    const edgesMesh = new LineSegments(edgesGeometry, edgesMaterial)\r\n    scene.add(edgesMesh)\r\n\r\n\r\n    //Size\r\n    const sizes = {\r\n        width: 500,\r\n        height: 500,\r\n    }\r\n\r\n\r\n    //Light\r\n    const light = new THREE.AmbientLight(0xffffff, 0.5)\r\n    light.position.set(0, 10, 10)\r\n    light.intensity = 2\r\n    scene.add(light)\r\n\r\n\r\n    //Camera, 45 = field of view, 800,600 = aspect ratio\r\n    const camera = new THREE.PerspectiveCamera(\r\n        45,\r\n        sizes.width / sizes.height,\r\n        0.1,\r\n        100\r\n    )\r\n    camera.position.z = 20\r\n    scene.add(camera)\r\n\r\n\r\n    //Controls\r\n    const controls = new OrbitControls(camera, canvas.value)\r\n    controls.enableDamping = true\r\n    controls.enablePan = false\r\n    controls.enableZoom = false\r\n\r\n\r\n\r\n    //Renderer\r\n\r\n    const renderer = new THREE.WebGLRenderer({\r\n        canvas: canvas.value\r\n    })\r\n    renderer.setClearColor('#ffffff')\r\n\r\n\r\n\r\n    renderer.setSize(\r\n        sizes.width,\r\n        sizes.height\r\n    )\r\n\r\n\r\n    //Resize\r\n    window.addEventListener('resize', () => {\r\n        //Update size\r\n        console.log(window.innerWidth)\r\n        sizes.width = window.innerWidth,\r\n            sizes.height = window.innerHeight,\r\n\r\n            //Update camera\r\n            camera.aspect = sizes.width / sizes.height\r\n        camera.updateProjectionMatrix()\r\n        renderer.setSize(sizes.width, sizes.height)\r\n    })\r\n\r\n\r\n    function animate() {\r\n        mesh.rotation.x += 0.01\r\n        mesh.rotation.y += 0.01\r\n        edgesMesh.rotation.copy(mesh.rotation)\r\n\r\n        //Update controls\r\n        controls.update()\r\n        renderer.render(scene, camera)\r\n        requestAnimationFrame(animate)\r\n    }\r\n\r\n    animate()\r\n\r\n\r\n    //TimeLine \r\n    const timeline = gsap.timeline({ defaults: { duration: 1 } })\r\n    timeline.fromTo(mesh.scale, { z: 0, x: 0, y: 0 }, { z: 1, x: 1, y: 1 })\r\n    /*\r\n    //Mouse animation color\r\n    let mouseDown = ref(false)\r\n    let rgb = []\r\n    window.addEventListener(\"mousedown\", () => (mouseDown.value = true))\r\n    window.addEventListener(\"mouseup\", () => (mouseDown.value = false))\r\n\r\n    window.addEventListener(\"mousemove\", (e) => {\r\n        if (mouseDown) {\r\n            rgb = [\r\n                Math.round((e.pageX / sizes.width) * 255),\r\n                Math.round((e.pageY / sizes.height) * 255),\r\n                150,\r\n            ]\r\n            let newColor = new THREE.Color(`rgb(${rgb.join(\",\")})`)\r\n\r\n            gsap.to(mesh.material.color, { \r\n                r: newColor.r, \r\n                g: newColor.g, \r\n                b: newColor.b \r\n            })\r\n        }\r\n    })\r\n    */\r\n})\r\n\r\n\r\n\r\n</script>\r\n\r\n<template>\r\n    <canvas class=\"position\" ref=\"canvas\"></canvas>\r\n</template>\r\n\r\n\r\n<style scoped>\r\n.position {\r\n    cursor: pointer;\r\n}\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327012961,
+      "end": 1705327012961,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327012961,
+      "end": 1705327012961,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327012962,
+      "end": 1705327012962,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327012962,
+      "end": 1705327012962,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1705327012962,
+      "end": 1705327012962,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".position{cursor:pointer}",
+      "start": 1705327012962,
+      "end": 1705327012972,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Github/nuxt-portfolio/components/threeJS/threeJS.vue",
+        "mappings": "AACA,UACI,cACJ",
+        "names": [],
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/threeJS/threeJS.vue"
+        ],
+        "sourcesContent": [
+          "\r\n.position {\r\n    cursor: pointer;\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1705327012972,
+      "end": 1705327012972,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1705327012972,
+      "end": 1705327012972,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1705327012972,
+      "end": 1705327012973,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".position[data-v-1cf8a014]{cursor:pointer}",
+      "start": 1705327012973,
+      "end": 1705327012973,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Github/nuxt-portfolio/components/threeJS/threeJS.vue",
+        "mappings": "AAAA,2BAAU,cAAc",
+        "names": [],
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/threeJS/threeJS.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1705327012973,
+      "end": 1705327012973,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327012973,
+      "end": 1705327012973,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327012973,
+      "end": 1705327012973,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327012973,
+      "end": 1705327012973,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327012973,
+      "end": 1705327012973,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327012973,
+      "end": 1705327012973,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1705327012973,
+      "end": 1705327012973,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327012973,
+      "end": 1705327012973,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1705327012973,
+      "end": 1705327012978,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327012979,
+      "end": 1705327012979,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1705327012979,
+      "end": 1705327012980,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1705327012980,
+      "end": 1705327012980,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1705327012980,
+      "end": 1705327012980,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1705327012980,
+      "end": 1705327012980,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1705327012980,
+      "end": 1705327012980,
+      "order": "normal"
+    }
+  ]
+}

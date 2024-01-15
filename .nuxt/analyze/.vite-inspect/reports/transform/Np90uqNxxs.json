@@ -1,0 +1,222 @@
+{
+  "resolvedId": "C:/Github/nuxt-portfolio/components/Projects.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/img/vue.svg'\nimport _imports_1 from '/img/firebase.svg'\nimport _imports_2 from '/img/csharp.svg'\nimport _imports_3 from '/img/dotnet.svg'\nimport _imports_4 from '/img/typescript.svg'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-c02f5d2b\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"boxes\" }\nconst _hoisted_2 = { class: \"box\" }\nconst _hoisted_3 = [\"src\"]\nconst _hoisted_4 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"icons1\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_0 }),\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_1 })\n], -1))\nconst _hoisted_5 = { class: \"box\" }\nconst _hoisted_6 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"icons2\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_2 }),\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_3 })\n], -1))\nconst _hoisted_7 = { class: \"box\" }\nconst _hoisted_8 = [\"src\"]\nconst _hoisted_9 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"icons3\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_0 }),\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_4 })\n], -1))\n\nimport { type Projects } from \"@/utils/types\";\r\n\r\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Projects',\n  setup(__props) {\n\r\nconst projects: Projects[] = [\r\n    {\r\n        title: \"Kjøreskole\",\r\n        image: \"/img/Kjoreskole.png\",\r\n    },\r\n    {\r\n        title: \"OCR Program\",\r\n        description: \"Lesing av PDF-er mottat på e-post og konvertere teksten til en tom fil.\",\r\n    },\r\n    {\r\n        title: \"Valgomat\",\r\n        image: \"/img/Valgomat.png\",\r\n    }\r\n]\r\n\r\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_Readmore = _resolveComponent(\"Readmore\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"h3\", null, _toDisplayString(projects[0].title), 1),\n      _createElementVNode(\"img\", {\n        class: \"img\",\n        src: projects[0].image\n      }, null, 8, _hoisted_3),\n      _hoisted_4,\n      _createVNode(_component_Readmore)\n    ]),\n    _createElementVNode(\"div\", _hoisted_5, [\n      _createElementVNode(\"h3\", null, _toDisplayString(projects[1].title), 1),\n      _createElementVNode(\"p\", null, _toDisplayString(projects[1].description), 1),\n      _hoisted_6,\n      _createVNode(_component_Readmore)\n    ]),\n    _createElementVNode(\"div\", _hoisted_7, [\n      _createElementVNode(\"h3\", null, _toDisplayString(projects[2].title), 1),\n      _createElementVNode(\"img\", {\n        class: \"img2\",\n        src: projects[2].image\n      }, null, 8, _hoisted_8),\n      _hoisted_9,\n      _createVNode(_component_Readmore)\n    ])\n  ]))\n}\n}\n\n})",
+      "start": 1705327007428,
+      "end": 1705327007428
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1705327007428,
+      "end": 1705327007428,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1705327007429,
+      "end": 1705327007429,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1705327007429,
+      "end": 1705327007429,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1705327007429,
+      "end": 1705327007429,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nimport _imports_0 from \"/img/vue.svg\";\nimport _imports_1 from \"/img/firebase.svg\";\nimport _imports_2 from \"/img/csharp.svg\";\nimport _imports_3 from \"/img/dotnet.svg\";\nimport _imports_4 from \"/img/typescript.svg\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-c02f5d2b\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"boxes\" };\nconst _hoisted_2 = { class: \"box\" };\nconst _hoisted_3 = [\"src\"];\nconst _hoisted_4 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"icons1\" }, [\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_0 }),\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_1 })\n], -1));\nconst _hoisted_5 = { class: \"box\" };\nconst _hoisted_6 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"icons2\" }, [\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_2 }),\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_3 })\n], -1));\nconst _hoisted_7 = { class: \"box\" };\nconst _hoisted_8 = [\"src\"];\nconst _hoisted_9 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"icons3\" }, [\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_0 }),\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_4 })\n], -1));\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Projects\",\n  setup(__props) {\n    const projects = [\n      {\n        title: \"Kjøreskole\",\n        image: \"/img/Kjoreskole.png\"\n      },\n      {\n        title: \"OCR Program\",\n        description: \"Lesing av PDF-er mottat på e-post og konvertere teksten til en tom fil.\"\n      },\n      {\n        title: \"Valgomat\",\n        image: \"/img/Valgomat.png\"\n      }\n    ];\n    return (_ctx, _cache) => {\n      const _component_Readmore = _resolveComponent(\"Readmore\");\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"h3\", null, _toDisplayString(projects[0].title), 1),\n          _createElementVNode(\"img\", {\n            class: \"img\",\n            src: projects[0].image\n          }, null, 8, _hoisted_3),\n          _hoisted_4,\n          _createVNode(_component_Readmore)\n        ]),\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createElementVNode(\"h3\", null, _toDisplayString(projects[1].title), 1),\n          _createElementVNode(\"p\", null, _toDisplayString(projects[1].description), 1),\n          _hoisted_6,\n          _createVNode(_component_Readmore)\n        ]),\n        _createElementVNode(\"div\", _hoisted_7, [\n          _createElementVNode(\"h3\", null, _toDisplayString(projects[2].title), 1),\n          _createElementVNode(\"img\", {\n            class: \"img2\",\n            src: projects[2].image\n          }, null, 8, _hoisted_8),\n          _hoisted_9,\n          _createVNode(_component_Readmore)\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1705327007436,
+      "end": 1705327007497,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Github/nuxt-portfolio/components/Projects.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/img/vue.svg'\nimport _imports_1 from '/img/firebase.svg'\nimport _imports_2 from '/img/csharp.svg'\nimport _imports_3 from '/img/dotnet.svg'\nimport _imports_4 from '/img/typescript.svg'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-c02f5d2b\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"boxes\" }\nconst _hoisted_2 = { class: \"box\" }\nconst _hoisted_3 = [\"src\"]\nconst _hoisted_4 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"icons1\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_0 }),\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_1 })\n], -1))\nconst _hoisted_5 = { class: \"box\" }\nconst _hoisted_6 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"icons2\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_2 }),\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_3 })\n], -1))\nconst _hoisted_7 = { class: \"box\" }\nconst _hoisted_8 = [\"src\"]\nconst _hoisted_9 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"icons3\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_0 }),\n  /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_4 })\n], -1))\n\nimport { type Projects } from \"@/utils/types\";\r\n\r\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Projects',\n  setup(__props) {\n\r\nconst projects: Projects[] = [\r\n    {\r\n        title: \"Kjøreskole\",\r\n        image: \"/img/Kjoreskole.png\",\r\n    },\r\n    {\r\n        title: \"OCR Program\",\r\n        description: \"Lesing av PDF-er mottat på e-post og konvertere teksten til en tom fil.\",\r\n    },\r\n    {\r\n        title: \"Valgomat\",\r\n        image: \"/img/Valgomat.png\",\r\n    }\r\n]\r\n\r\n\nreturn (_ctx: any,_cache: any) => {\n  const _component_Readmore = _resolveComponent(\"Readmore\")!\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"h3\", null, _toDisplayString(projects[0].title), 1),\n      _createElementVNode(\"img\", {\n        class: \"img\",\n        src: projects[0].image\n      }, null, 8, _hoisted_3),\n      _hoisted_4,\n      _createVNode(_component_Readmore)\n    ]),\n    _createElementVNode(\"div\", _hoisted_5, [\n      _createElementVNode(\"h3\", null, _toDisplayString(projects[1].title), 1),\n      _createElementVNode(\"p\", null, _toDisplayString(projects[1].description), 1),\n      _hoisted_6,\n      _createVNode(_component_Readmore)\n    ]),\n    _createElementVNode(\"div\", _hoisted_7, [\n      _createElementVNode(\"h3\", null, _toDisplayString(projects[2].title), 1),\n      _createElementVNode(\"img\", {\n        class: \"img2\",\n        src: projects[2].image\n      }, null, 8, _hoisted_8),\n      _hoisted_9,\n      _createVNode(_component_Readmore)\n    ])\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "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",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1705327007497,
+      "end": 1705327007497,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1705327007498,
+      "end": 1705327007498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1705327007499,
+      "end": 1705327007499,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1705327007499,
+      "end": 1705327007499,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1705327007499,
+      "end": 1705327007499,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1705327007499,
+      "end": 1705327007499,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1705327007499,
+      "end": 1705327007499,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1705327007499,
+      "end": 1705327007501,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1705327007501,
+      "end": 1705327007501,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1705327007501,
+      "end": 1705327007501,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1705327007501,
+      "end": 1705327007501,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1705327007501,
+      "end": 1705327007501,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Github/nuxt-portfolio/components/Readmore.vue\";\nimport { defineComponent as _defineComponent } from \"vue\";\nimport { toDisplayString as _toDisplayString, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nimport _imports_0 from \"/img/vue.svg\";\nimport _imports_1 from \"/img/firebase.svg\";\nimport _imports_2 from \"/img/csharp.svg\";\nimport _imports_3 from \"/img/dotnet.svg\";\nimport _imports_4 from \"/img/typescript.svg\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-c02f5d2b\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"boxes\" };\nconst _hoisted_2 = { class: \"box\" };\nconst _hoisted_3 = [\"src\"];\nconst _hoisted_4 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"icons1\" }, [\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_0 }),\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_1 })\n], -1));\nconst _hoisted_5 = { class: \"box\" };\nconst _hoisted_6 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"icons2\" }, [\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_2 }),\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_3 })\n], -1));\nconst _hoisted_7 = { class: \"box\" };\nconst _hoisted_8 = [\"src\"];\nconst _hoisted_9 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"div\", { class: \"icons3\" }, [\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_0 }),\n  /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_4 })\n], -1));\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Projects\",\n  setup(__props) {\n    const projects = [\n      {\n        title: \"Kjøreskole\",\n        image: \"/img/Kjoreskole.png\"\n      },\n      {\n        title: \"OCR Program\",\n        description: \"Lesing av PDF-er mottat på e-post og konvertere teksten til en tom fil.\"\n      },\n      {\n        title: \"Valgomat\",\n        image: \"/img/Valgomat.png\"\n      }\n    ];\n    return (_ctx, _cache) => {\n      const _component_Readmore = __nuxt_component_0;\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createElementVNode(\"h3\", null, _toDisplayString(projects[0].title), 1),\n          _createElementVNode(\"img\", {\n            class: \"img\",\n            src: projects[0].image\n          }, null, 8, _hoisted_3),\n          _hoisted_4,\n          _createVNode(_component_Readmore)\n        ]),\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createElementVNode(\"h3\", null, _toDisplayString(projects[1].title), 1),\n          _createElementVNode(\"p\", null, _toDisplayString(projects[1].description), 1),\n          _hoisted_6,\n          _createVNode(_component_Readmore)\n        ]),\n        _createElementVNode(\"div\", _hoisted_7, [\n          _createElementVNode(\"h3\", null, _toDisplayString(projects[2].title), 1),\n          _createElementVNode(\"img\", {\n            class: \"img2\",\n            src: projects[2].image\n          }, null, 8, _hoisted_8),\n          _hoisted_9,\n          _createVNode(_component_Readmore)\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1705327007501,
+      "end": 1705327007501,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1705327007501,
+      "end": 1705327007501,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1705327007501,
+      "end": 1705327007502,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1705327007502,
+      "end": 1705327007502,
+      "order": "normal"
+    }
+  ]
+}
