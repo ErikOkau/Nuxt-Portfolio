@@ -3,25 +3,26 @@
 const socialImages = ref([
     {
         name: "Github",
-        url: "/img/github-142-svgrepo-com.svg",
+        url: "/img/github.svg",
         link: "https://github.com/ErikOkau"
     },
     {
         name: "Gmail",
-        url: "/img/gmail-svgrepo-com (1).svg",
+        url: "/img/gmail.svg",
         link: "mailto: ersor29@gmail.com"
     },
     {
         name: "Facebook",
-        url: "/img/facebook-svgrepo-com.svg",
+        url: "/img/facebook.svg",
         link: "https://facebook.com"
     },
     {
         name: "Instagram",
-        url: "/img/instagram-svgrepo-com.svg",
+        url: "/img/instagram.svg",
         link: "https://instagram.com"
     }
 ])
+
 
 // Array of footer links
 const footerLinks = ref([

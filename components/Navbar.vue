@@ -24,17 +24,17 @@ const navbarLinks = [
     <div class="navbar">
         <div class="left_navbar">
             <div class="navbar__logo">
-                <img class="logo" src="/img/logo.svg" onclick="" />
+                <img class="logo" src="/img/logo.svg"/>
             </div>
         </div>
         <div class="middle_navbar">
             <div class="routerlinks" v-for="navbar in navbarLinks">
-                <RouterLink class="RouterLink" :to="{ path: navbar.link }">{{ navbar.name }}</RouterLink>
+                <NuxtLink class="RouterLink" :to="{ path: navbar.link }">{{ navbar.name }}</NuxtLink>
             </div>
         </div>
         <div class="right_navbar">
             <div class="login_link">
-                <RouterLink class="RouterLink" to="/">Logg inn</RouterLink>
+                <NuxtLink class="RouterLink" to="/">Logg inn</NuxtLink>
             </div>
 
             <Search />
