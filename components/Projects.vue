@@ -1,10 +1,5 @@
 <script setup lang="ts">
-
-type Projects = {
-    title: string;
-    image?: string;
-    description?: string;
-}
+import { type Projects } from "@/utils/types";
 
 const projects: Projects[] = [
     {
@@ -20,7 +15,6 @@ const projects: Projects[] = [
         image: "/img/Valgomat.png",
     }
 ]
-
 
 </script>
 

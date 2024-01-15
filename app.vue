@@ -4,7 +4,7 @@ import '../assets/scss/animations.scss'
 <template>
   <NuxtLayout>
     <Navbar />
-    <NuxtPage></NuxtPage>
+      <NuxtPage></NuxtPage>
     <Footer />
   </NuxtLayout>
 </template>

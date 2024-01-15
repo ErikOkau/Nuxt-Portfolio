@@ -33,10 +33,6 @@ const navbarLinks = [
             </div>
         </div>
         <div class="right_navbar">
-            <div class="login_link">
-                <NuxtLink class="RouterLink" to="/">Logg inn</NuxtLink>
-            </div>
-
             <Search />
         </div>
     </div>
