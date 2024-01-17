@@ -11,18 +11,96 @@ datasource db {
 }
 
 // User model
-model User {
-  id        String   @id @default(uuid())
-  email     String   @unique
-  name      String?
-  password  String 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+
+enum Role {
+  MEMBER
+  PARENT
+  LEADER
+  ADMIN
 }
 
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  name      String
+  surname   String
+  password  String
+  role      Role     @default(MEMBER)
+  leader_id Int? 
+  
+  userMember         Member?
+  userParent         Parent?
+  companies          Company?
+}
 
-// Enum for user roles
-enum Role {
-  ADMIN
-  USER
+model Member {
+  id         Int      @id @default(autoincrement())
+  user       User     @relation(fields: [user_id], references: [id], onDelete: Cascade)      
+  user_id    Int      @unique
+  name       String  
+  surname    String
+  address    String
+  email      String  
+  phone      String 
+
+  peleton    Peleton  @relation(fields: [peleton_id], references: [id])
+  peleton_id Int
+
+  member_parent Member_Parent[]
+
+  @@unique([email, phone])
+}
+
+model Peleton {
+  id            Int     @id @default(autoincrement())
+  name          String
+
+  companies     Company @relation(fields: [companies_id], references: [id])
+  companies_id  Int
+
+  members Member[]
+  parents Parent[]
+}
+
+model Company {
+  id          Int      @id @default(autoincrement())
+  name        String
+  description String
+  logo        Bytes?
+  address     String
+  city        String
+
+  leaders     User     @relation(fields: [leader_id], references: [id], onDelete: Cascade)
+  leader_id   Int      @unique
+
+  peletons    Peleton[]
+}
+
+model Parent {
+  id         Int      @id @default(autoincrement())
+  name       String
+  surname    String
+  email      String  
+  address    String   
+  phone      Int    
+
+  user       User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  user_id    Int      @unique
+  peleton    Peleton  @relation(fields: [peleton_id], references: [id])
+  peleton_id Int      @unique
+
+  member_parent Member_Parent[]
+
+  @@unique ([user_id, email, phone])
+}
+
+model Member_Parent {
+  id         Int      @id @default(autoincrement())
+
+  member     Member   @relation(fields: [member_id], references: [id])
+  member_id  Int
+  parent     Parent   @relation(fields: [parent_id], references: [id])
+  parent_id  Int
+
+  @@unique([member_id, parent_id])
 }
