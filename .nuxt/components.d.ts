@@ -3,6 +3,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     'Dropdown': typeof import("../components/Dropdown.vue")['default']
     'Footer': typeof import("../components/Footer.vue")['default']
+    'Header': typeof import("../components/Header.vue")['default']
     'Login': typeof import("../components/Login.vue")['default']
     'Navbar': typeof import("../components/Navbar.vue")['default']
     'Projects': typeof import("../components/Projects.vue")['default']
@@ -31,6 +32,7 @@ declare module 'vue' {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyDropdown': typeof import("../components/Dropdown.vue")['default']
     'LazyFooter': typeof import("../components/Footer.vue")['default']
+    'LazyHeader': typeof import("../components/Header.vue")['default']
     'LazyLogin': typeof import("../components/Login.vue")['default']
     'LazyNavbar': typeof import("../components/Navbar.vue")['default']
     'LazyProjects': typeof import("../components/Projects.vue")['default']
@@ -62,6 +64,7 @@ declare module 'vue' {
 
 export const Dropdown: typeof import("../components/Dropdown.vue")['default']
 export const Footer: typeof import("../components/Footer.vue")['default']
+export const Header: typeof import("../components/Header.vue")['default']
 export const Login: typeof import("../components/Login.vue")['default']
 export const Navbar: typeof import("../components/Navbar.vue")['default']
 export const Projects: typeof import("../components/Projects.vue")['default']
@@ -90,6 +93,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyDropdown: typeof import("../components/Dropdown.vue")['default']
 export const LazyFooter: typeof import("../components/Footer.vue")['default']
+export const LazyHeader: typeof import("../components/Header.vue")['default']
 export const LazyLogin: typeof import("../components/Login.vue")['default']
 export const LazyNavbar: typeof import("../components/Navbar.vue")['default']
 export const LazyProjects: typeof import("../components/Projects.vue")['default']
