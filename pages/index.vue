@@ -1,5 +1,6 @@
 <script setup lang="ts">
 
+// import { headerText } from "../utils/text"
 const title = headerText[0].title
 const text = headerText[0].text
 
