@@ -2,11 +2,11 @@
 import '../assets/scss/animations.scss'
 </script>
 <template>
-  <NuxtLayout>
-    <Navbar />
-      <NuxtPage></NuxtPage>
-    <Footer />
-  </NuxtLayout>
+    <NuxtLayout>
+        <Navbar />
+       		<NuxtPage></NuxtPage>
+        <Footer />
+    </NuxtLayout>
 </template>
 
 <style lang="scss">

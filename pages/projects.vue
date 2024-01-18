@@ -7,7 +7,7 @@ const text = headerText[1].text
 </script>
 
 <template>
-    <Header :title="headerText[1].title" :text="text" />
+    <Header :title="title" :text="text" />
 
     <Projects />
 </template>
