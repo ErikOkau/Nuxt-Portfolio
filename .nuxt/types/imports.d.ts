@@ -141,8 +141,8 @@ declare global {
   export type { Component, ComponentPublicInstance, ComputedRef, ExtractPropTypes, ExtractPublicPropTypes, InjectionKey, PropType, Ref, MaybeRef, MaybeRefOrGetter, VNode } from '../../node_modules/vue'
   import('../../node_modules/vue')
   // @ts-ignore
-  export type { Projects } from 'C:/Github/nuxt-portfolio/utils/types.ts'
-  import('C:/Github/nuxt-portfolio/utils/types.ts')
+  export type { Projects } from 'C:/Github/Nuxt-Portfolio/utils/types.ts'
+  import('C:/Github/Nuxt-Portfolio/utils/types.ts')
 }
 // for vue template auto import
 import { UnwrapRef } from 'vue'

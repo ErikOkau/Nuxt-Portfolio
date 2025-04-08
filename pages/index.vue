@@ -16,7 +16,7 @@ const text = headerText[0].text
    
 <style scoped lang="scss">
 .threeJS {
-   margin-left: 60%;
+   margin-left: 0%;
    margin-top: -22rem;
 }
 </style>
